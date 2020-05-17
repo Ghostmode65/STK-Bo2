@@ -1,0 +1,1523 @@
+-- Ghostmode65
+-- Gui 3.2
+-- Survive and Kill the Killers in Area 51 !!!
+--Couple Issues fixed, fixing juggernaut hitbox, sometimes work sometimes odes not. 
+
+
+local Main = Instance.new("ScreenGui")
+local open = Instance.new("Frame")
+local Open = Instance.new("TextButton")
+local MainGui = Instance.new("Frame")
+local ScrollingMainFrame = Instance.new("ScrollingFrame")
+local Codes = Instance.new("TextButton")
+local Guns = Instance.new("TextButton")
+local Rooms = Instance.new("TextButton")
+local Ignore = Instance.new("TextButton")
+local RemoveDoors = Instance.new("TextButton")
+local GodMode = Instance.new("TextButton")
+local Ammo = Instance.new("TextButton")
+local InfiniteAmmo = Instance.new("TextButton")
+local AllGuns = Instance.new("TextButton")
+local DeleteTool = Instance.new("TextButton")
+local MoreToCome = Instance.new("TextButton")
+local MoreToCome_2 = Instance.new("TextButton")
+local MoreToCome_3 = Instance.new("TextButton")
+local MoreToCome_4 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local Guns_2 = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local RayGun = Instance.new("TextButton")
+local Sniper = Instance.new("TextButton")
+local Assualt = Instance.new("TextButton")
+local Pistiol = Instance.new("TextButton")
+local ShotGun = Instance.new("TextButton")
+local Future = Instance.new("TextButton")
+local Awp = Instance.new("TextButton")
+local Rifle = Instance.new("TextButton")
+local Subgun = Instance.new("TextButton")
+local Future_2 = Instance.new("TextButton")
+local Back = Instance.new("TextButton")
+local Codes_2 = Instance.new("Frame")
+local ScrollingFrame_2 = Instance.new("ScrollingFrame")
+local Truck = Instance.new("TextButton")
+local SpawnSign = Instance.new("TextButton")
+local ClownRoom = Instance.new("TextButton")
+local Kitchen = Instance.new("TextButton")
+local Camras = Instance.new("TextButton")
+local Slendermen = Instance.new("TextButton")
+local Crates = Instance.new("TextButton")
+local TpDevice = Instance.new("TextButton")
+local Sewer = Instance.new("TextButton")
+local Gate1 = Instance.new("TextButton")
+local Gate2 = Instance.new("TextButton")
+local GateRoom = Instance.new("TextButton")
+local RandomPc = Instance.new("TextButton")
+local Cafe = Instance.new("TextButton")
+local Sonci = Instance.new("TextButton")
+local MeetingRoom = Instance.new("TextButton")
+local Packapunchwall = Instance.new("TextButton")
+local Back_2 = Instance.new("TextButton")
+local Rooms_2 = Instance.new("Frame")
+local ScrollingFrame_3 = Instance.new("ScrollingFrame")
+local Spawn = Instance.new("TextButton")
+local Firstroom = Instance.new("TextButton")
+local Ammo_2 = Instance.new("TextButton")
+local Camras_2 = Instance.new("TextButton")
+local Kitchen_2 = Instance.new("TextButton")
+local Packapunch = Instance.new("TextButton")
+local UFo = Instance.new("TextButton")
+local LockedRoom = Instance.new("TextButton")
+local Commandarea = Instance.new("TextButton")
+local JailCells = Instance.new("TextButton")
+local More = Instance.new("TextButton")
+local More_2 = Instance.new("TextButton")
+local More_3 = Instance.new("TextButton")
+local More_4 = Instance.new("TextButton")
+local More_5 = Instance.new("TextButton")
+local More_6 = Instance.new("TextButton")
+local More_7 = Instance.new("TextButton")
+local Back_3 = Instance.new("TextButton")
+local Extra = Instance.new("Frame")
+local ScrollingFrame_4 = Instance.new("ScrollingFrame")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local Back_4 = Instance.new("TextButton")
+
+--Properties:
+
+Main.Name = "Main"
+Main.Parent = game.CoreGui
+Main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+open.Name = "open"
+open.Parent = Main
+open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+open.Position = UDim2.new(0.0826709047, 0, 0.106122464, 0)
+open.Size = UDim2.new(0, 92, 0, 65)
+
+Open.Name = "Open"
+Open.Parent = open
+Open.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+Open.Position = UDim2.new(-0.0652173758, 0, 0, 0)
+Open.Size = UDim2.new(0, 98, 0, 65)
+Open.Font = Enum.Font.SourceSans
+Open.Text = "Ghostmode"
+Open.TextColor3 = Color3.fromRGB(255, 255, 255)
+Open.TextSize = 20.000
+Open.Draggable = true
+Open.MouseButton1Down:connect(function()
+MainGui.Visible = true
+open.Visible = false
+end)
+
+MainGui.Name = "MainGui"
+MainGui.Parent = Main
+MainGui.Active = true
+MainGui.BackgroundColor3 = Color3.fromRGB(64, 156, 255)
+MainGui.BackgroundTransparency = 0.200
+MainGui.BorderSizePixel = 0
+MainGui.Position = UDim2.new(-0.000580700231, 0, 0.259183675, 0)
+MainGui.Size = UDim2.new(0, 195, 0, 316)
+MainGui.Visible = false
+MainGui.Draggable = true
+
+
+ScrollingMainFrame.Name = "Scrolling Main Frame"
+ScrollingMainFrame.Parent = MainGui
+ScrollingMainFrame.Active = true
+ScrollingMainFrame.BackgroundColor3 = Color3.fromRGB(28, 218, 255)
+ScrollingMainFrame.BackgroundTransparency = 1.000
+ScrollingMainFrame.Position = UDim2.new(0.00277040922, 0, 0.091772154, 0)
+ScrollingMainFrame.Size = UDim2.new(0, 194, 0, 287)
+
+Codes.Name = "Codes"
+Codes.Parent = ScrollingMainFrame
+Codes.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Codes.BackgroundTransparency = 1.000
+Codes.Position = UDim2.new(0.0618556701, 0, 0.0117800888, 0)
+Codes.Size = UDim2.new(0, 168, 0, 44)
+Codes.Font = Enum.Font.SourceSans
+Codes.Text = "Code Areas"
+Codes.TextColor3 = Color3.fromRGB(0, 0, 0)
+Codes.TextSize = 14.000
+Codes.MouseButton1Down:connect(function()
+MainGui.Visible = false
+Codes_2.Visible = true
+end)
+
+
+Guns.Name = "Guns"
+Guns.Parent = ScrollingMainFrame
+Guns.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Guns.BackgroundTransparency = 1.000
+Guns.Position = UDim2.new(0.0618556701, 0, 0.151020586, 0)
+Guns.Size = UDim2.new(0, 168, 0, 44)
+Guns.Font = Enum.Font.SourceSans
+Guns.Text = "Guns"
+Guns.TextColor3 = Color3.fromRGB(0, 0, 0)
+Guns.TextSize = 14.000
+Guns.MouseButton1Down:connect(function()
+MainGui.Visible = false
+Guns_2.Visible = true
+end)
+
+
+Rooms.Name = "Rooms"
+Rooms.Parent = ScrollingMainFrame
+Rooms.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Rooms.BackgroundTransparency = 1.000
+Rooms.Position = UDim2.new(0.0618556701, 0, 0.0814003348, 0)
+Rooms.Size = UDim2.new(0, 168, 0, 44)
+Rooms.Font = Enum.Font.SourceSans
+Rooms.Text = "Rooms"
+Rooms.TextColor3 = Color3.fromRGB(0, 0, 0)
+Rooms.TextSize = 14.000
+Rooms.MouseButton1Down:connect(function()
+MainGui.Visible = false
+Rooms_2.Visible = true
+end)
+
+Ignore.Name = "Ignore"
+Ignore.Parent = ScrollingMainFrame
+Ignore.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Ignore.BackgroundTransparency = 1.000
+Ignore.Position = UDim2.new(0.0618556701, 0, 0.220640823, 0)
+Ignore.Size = UDim2.new(0, 168, 0, 44)
+Ignore.Font = Enum.Font.SourceSans
+Ignore.Text = "Killers Ingore You"
+Ignore.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ignore.TextSize = 14.000
+Ignore.MouseButton1Down:connect(function()
+Local = game:GetService('Players').LocalPlayer
+Char  = Local.Character
+touched,tpdback = false, false
+Local.CharacterAdded:connect(function(char)
+    if script.Disabled ~= true then
+        wait(.25)
+        loc = Char.HumanoidRootPart.Position
+        Char:MoveTo(box.Position + Vector3.new(0,.5,0))
+    end
+end)
+game:GetService('UserInputService').InputBegan:connect(function(key)
+    if key.KeyCode == Enum.KeyCode.Equals then
+        if script.Disabled ~= true then
+            script.Disabled = true
+            print'you may re-execute'
+        end
+    end
+end)
+box = Instance.new('Part',workspace)
+box.Anchored = true
+box.CanCollide = true
+box.Size = Vector3.new(10,1,10)
+box.Position = Vector3.new(0,10000,0)
+box.Touched:connect(function(part)
+    if (part.Parent.Name == Local.Name) then
+        if touched == false then
+            touched = true
+            function apply()
+                if script.Disabled ~= true then
+                    no = Char.HumanoidRootPart:Clone()
+                    wait(.25)
+                    Char.HumanoidRootPart:Destroy()
+                    no.Parent = Char
+                    Char:MoveTo(loc)
+                    touched = false
+                end end
+            if Char then
+                apply()
+            end
+        end
+    end
+end)
+repeat wait() until Char
+loc = Char.HumanoidRootPart.Position
+Char:MoveTo(box.Position + Vector3.new(0,.5,0))
+end)
+
+RemoveDoors.Name = "Remove Doors"
+RemoveDoors.Parent = ScrollingMainFrame
+RemoveDoors.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RemoveDoors.BackgroundTransparency = 1.000
+RemoveDoors.Position = UDim2.new(0.0567010306, 0, 0.29026106, 0)
+RemoveDoors.Size = UDim2.new(0, 168, 0, 44)
+RemoveDoors.Font = Enum.Font.SourceSans
+RemoveDoors.Text = "Remove Doors"
+RemoveDoors.TextColor3 = Color3.fromRGB(0, 0, 0)
+RemoveDoors.TextSize = 14.000
+RemoveDoors.MouseButton1Down:connect(function()
+game.Workspace.AREA51.Doors.Vertical.ToComptersRoom.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Vertical.EntranceOfArea.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Horizontal.ComputersRoomRight.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Horizontal.ComputersRoomLeft.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Vertical.ComputersRoom.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Vertical.ToMultipleRooms.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Vertical.ToMedicAndMeet.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Horizontal.ElectricityRoom.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Vertical.ToRadioactive.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Horizontal.ComputersRoomLeft.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Horizontal.ComputersRoomLeft.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Vertical.CartonsRoom.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Vertical.ToTeleporterRight.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Vertical.TeleporterRoomRight.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Vertical.TeleporterRoomLeft.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Vertical.ToTeleporterLeft.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Vertical.ToSurveillanceCams.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Horizontal.ToMenageRoom.Door.Door:Destroy()
+game.Workspace.AREA51.ExecutionRoom.Door.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Horizontal.RobotsRoom.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Horizontal.SmallTrapRoom.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Horizontal.UFORoom.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Vertical.TrapRoomLeft.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Vertical.TrapRoomRight.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Horizontal.ToAlienRoom.Door.DoorDestroy()
+game.Workspace.AREA51.Doors.Horizontal.ToUndergroundRoom.Door.DoorDestroy()
+game.Workspace.AREA51.Doors.Horizontal.ToExperimentRoom.Door.DoorDestroy()
+game.Workspace.AREA51.Doors.Vertical.ToJails.Door.DoorDestroy()
+game.Workspace.AREA51.JailsRoom.RotateDoor.Door:Destroy()
+game.Workspace.AREA51.Doors.Horizontal.ToTrainRoom.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Horizontal.ToNewRoom.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Horizontal.ToOtherNewRoom.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Vertical.TrainRoom.Door.Door:Destroy()
+game.Workspace.AREA51.Doors.Vertical.ToRayGunElevatorRoom.Door.Door:Destroy()
+end)
+
+GodMode.Name = "God Mode "
+GodMode.Parent = ScrollingMainFrame
+GodMode.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GodMode.BackgroundTransparency = 1.000
+GodMode.Position = UDim2.new(0.0567010306, 0, 0.359881371, 0)
+GodMode.Size = UDim2.new(0, 168, 0, 44)
+GodMode.Font = Enum.Font.SourceSans
+GodMode.Text = "God Mode"
+GodMode.TextColor3 = Color3.fromRGB(0, 0, 0)
+GodMode.TextSize = 14.000
+GodMode.MouseButton1Down:connect(function()
+local stationaryrespawn = false
+local needsrespawning = false
+local haspos = false
+local pos = CFrame.new()
+local Respawning = Instance.new("ScreenGui")
+local RespawningButton = Instance.new("TextButton")
+
+Respawning.Name = "Respawning"
+Respawning.Parent = game.CoreGui
+
+
+
+
+function StatRespawn(inputObject, gameProcessedEvent)
+    if inputObject.KeyCode == Enum.KeyCode.N and gameProcessedEvent == false then        
+stationaryrespawn = not stationaryrespawn
+    end
+end
+
+
+
+
+
+
+game:GetService("UserInputService").InputBegan:connect(StatRespawn)
+
+
+
+game:GetService('RunService').Stepped:connect(function()
+
+
+if stationaryrespawn == false and game.Players.LocalPlayer.Character.Humanoid.Health == 0 then
+if haspos == false then
+pos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+haspos = true
+end
+
+needsrespawning = true
+end
+
+
+if needsrespawning == true then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+end
+
+
+if stationaryrespawn == false then 
+RespawningButton.Text = "Returning"
+else
+RespawningButton.Text = "Not Returning"
+end
+
+
+end)
+
+game.Players.LocalPlayer.CharacterAdded:connect(function()
+wait(0.6)
+needsrespawning = false
+haspos = false
+end)
+
+game.Players.LocalPlayer.CharacterAdded:connect(function()
+wait(0.6)
+needsrespawning = false
+haspos = false
+end)
+end)
+
+game.Players.LocalPlayer.CharacterAdded:connect(function()
+wait(0.6)
+needsrespawning = false
+haspos = false
+end) 
+
+Ammo.Name = "Ammo"
+Ammo.Parent = ScrollingMainFrame
+Ammo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Ammo.BackgroundTransparency = 1.000
+Ammo.Position = UDim2.new(0.0567010306, 0, 0.429501623, 0)
+Ammo.Size = UDim2.new(0, 168, 0, 44)
+Ammo.Font = Enum.Font.SourceSans
+Ammo.Text = "Ammo"
+Ammo.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ammo.TextSize = 14.000
+Ammo.MouseButton1Down:connect(function()
+local oldpos = workspace["AREA51"]["PlantRoom"]["Box of Shells"]["Box"].CFrame
+workspace["AREA51"]["PlantRoom"]["Box of Shells"]["Box"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+workspace["AREA51"]["PlantRoom"]["Box of Shells"]["Box"].CanCollide = false
+wait()
+workspace["AREA51"]["PlantRoom"]["Box of Shells"]["Box"].CFrame = oldpos
+workspace["AREA51"]["PlantRoom"]["Box of Shells"]["Box"].CanCollide = true
+end)
+
+InfiniteAmmo.Name = "Infinite Ammo"
+InfiniteAmmo.Parent = ScrollingMainFrame
+InfiniteAmmo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteAmmo.BackgroundTransparency = 1.000
+InfiniteAmmo.Position = UDim2.new(0.0567010306, 0, 0.499121875, 0)
+InfiniteAmmo.Size = UDim2.new(0, 168, 0, 44)
+InfiniteAmmo.Font = Enum.Font.SourceSans
+InfiniteAmmo.Text = "Inifnite Ammo"
+InfiniteAmmo.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteAmmo.TextSize = 14.000
+InfiniteAmmo.MouseButton1Down:connect(function()
+while true do
+local oldpos = workspace["AREA51"]["PlantRoom"]["Box of Shells"]["Box"].CFrame
+workspace["AREA51"]["PlantRoom"]["Box of Shells"]["Box"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+workspace["AREA51"]["PlantRoom"]["Box of Shells"]["Box"].CanCollide = false
+wait()
+workspace["AREA51"]["PlantRoom"]["Box of Shells"]["Box"].CFrame = oldpos
+workspace["AREA51"]["PlantRoom"]["Box of Shells"]["Box"].CanCollide = true
+wait()
+end
+end)
+
+AllGuns.Name = "All Guns"
+AllGuns.Parent = ScrollingMainFrame
+AllGuns.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AllGuns.BackgroundTransparency = 1.000
+AllGuns.Position = UDim2.new(0.0567010306, 0, 0.568742156, 0)
+AllGuns.Size = UDim2.new(0, 168, 0, 44)
+AllGuns.Font = Enum.Font.SourceSans
+AllGuns.Text = "All Guns"
+AllGuns.TextColor3 = Color3.fromRGB(0, 0, 0)
+AllGuns.TextSize = 14.000
+AllGuns.MouseButton1Down:connect(function()
+local descendants = workspace:GetDescendants()
+for i, descendant in pairs(descendants) do
+if string.find(descendant.Name, "PUT THE WEAPON IN") then
+local oldpos = descendant.CFrame
+descendant.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+descendant.CanCollide = false
+wait()
+descendant.CFrame = oldpos
+descendant.CanCollide = true
+end
+end
+end)
+
+DeleteTool.Name = "Delete Tool"
+DeleteTool.Parent = ScrollingMainFrame
+DeleteTool.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DeleteTool.BackgroundTransparency = 1.000
+DeleteTool.Position = UDim2.new(0.0567010306, 0, 0.636780143, 0)
+DeleteTool.Size = UDim2.new(0, 168, 0, 44)
+DeleteTool.Font = Enum.Font.SourceSans
+DeleteTool.Text = "Delete Tool"
+DeleteTool.TextColor3 = Color3.fromRGB(0, 0, 0)
+DeleteTool.TextSize = 14.000
+DeleteTool.MouseButton1Down:connect(function()
+local Players = game:GetService("Players")
+local localPlayer = Players.LocalPlayer
+local backpack = localPlayer:WaitForChild("Backpack")
+local tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.CanBeDropped = false
+tool.Parent = backpack
+tool.Name = "Delete"
+tool.Equipped:Connect(function(mouse)
+mouse.Button1Down:Connect(function()
+if mouse.Target and mouse.Target.Parent then
+mouse.Target.Transparency = 1
+mouse.Target.CanCollide = false
+mouse.Target.Anchored = false
+mouse.Target.Size  = Vector3.new(0,0,0)
+end
+end)
+end)
+end)
+
+MoreToCome.Name = "More To Come"
+MoreToCome.Parent = ScrollingMainFrame
+MoreToCome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MoreToCome.BackgroundTransparency = 1.000
+MoreToCome.Position = UDim2.new(0.0567010306, 0, 0.706400335, 0)
+MoreToCome.Size = UDim2.new(0, 168, 0, 44)
+MoreToCome.Font = Enum.Font.SourceSans
+MoreToCome.Text = "Juggernut HitBox Expander"
+MoreToCome.TextColor3 = Color3.fromRGB(0, 0, 0)
+MoreToCome.TextSize = 14.000
+MoreToCome.MouseButton1Down:connect(function()
+local children = game.Players:GetChildren()
+	for i = 1, #children do
+		local child = children[i]
+		if child.Name~=game.Players.LocalPlayer.Name then
+	child.Character.HumanoidRootPart.Size=Vector3.new(10,10,10)
+	child.Character.HumanoidRootPart.Transparency=0.25
+end
+end
+end)
+	
+
+MoreToCome_2.Name = "More To Come"
+MoreToCome_2.Parent = ScrollingMainFrame
+MoreToCome_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MoreToCome_2.BackgroundTransparency = 1.000
+MoreToCome_2.Position = UDim2.new(0.0567010306, 0, 0.774438381, 0)
+MoreToCome_2.Size = UDim2.new(0, 168, 0, 44)
+MoreToCome_2.Font = Enum.Font.SourceSans
+MoreToCome_2.Text = "More To Come"
+MoreToCome_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+MoreToCome_2.TextSize = 14.000
+
+MoreToCome_3.Name = "More To Come"
+MoreToCome_3.Parent = ScrollingMainFrame
+MoreToCome_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MoreToCome_3.BackgroundTransparency = 1.000
+MoreToCome_3.Position = UDim2.new(0.0618556701, 0, 0.91526109, 0)
+MoreToCome_3.Size = UDim2.new(0, 168, 0, 44)
+MoreToCome_3.Font = Enum.Font.SourceSans
+MoreToCome_3.Text = "More To Come"
+MoreToCome_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+MoreToCome_3.TextSize = 14.000
+
+MoreToCome_4.Name = "More To Come"
+MoreToCome_4.Parent = ScrollingMainFrame
+MoreToCome_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MoreToCome_4.BackgroundTransparency = 1.000
+MoreToCome_4.Position = UDim2.new(0.0567010306, 0, 0.844058573, 0)
+MoreToCome_4.Size = UDim2.new(0, 168, 0, 44)
+MoreToCome_4.Font = Enum.Font.SourceSans
+MoreToCome_4.Text = "More To Come"
+MoreToCome_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+MoreToCome_4.TextSize = 14.000
+
+TextLabel.Parent = MainGui
+TextLabel.Active = true
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Position = UDim2.new(-0.0126142064, 0, 0.00316455704, 0)
+TextLabel.Selectable = true
+TextLabel.Size = UDim2.new(0, 197, 0, 29)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Ghostmode V 3.2"
+TextLabel.TextColor3 = Color3.fromRGB(194, 8, 207)
+TextLabel.TextSize = 20.000
+
+Guns_2.Name = "Guns"
+Guns_2.Parent = Main
+Guns_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Guns_2.BackgroundTransparency = 0.750
+Guns_2.Position = UDim2.new(0, 0, 0.310204089, 0)
+Guns_2.Size = UDim2.new(0, 146, 0, 248)
+Guns_2.Visible = false
+
+ScrollingFrame.Parent = Guns_2
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.Position = UDim2.new(0, 0, 0.133064523, 0)
+ScrollingFrame.Size = UDim2.new(0, 146, 0, 215)
+
+RayGun.Name = "RayGun"
+RayGun.Parent = ScrollingFrame
+RayGun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RayGun.BackgroundTransparency = 1.000
+RayGun.BorderColor3 = Color3.fromRGB(1, 52, 53)
+RayGun.Position = UDim2.new(0.130136982, 0, 0.0312640704, 0)
+RayGun.Size = UDim2.new(0, 108, 0, 27)
+RayGun.Font = Enum.Font.SourceSans
+RayGun.Text = "RayGun"
+RayGun.TextColor3 = Color3.fromRGB(0, 0, 0)
+RayGun.TextSize = 14.000
+RayGun.MouseButton1Down:connect(function()
+local x = 231.4
+local y = 373.7
+local z = 44
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Sniper.Name = "Sniper"
+Sniper.Parent = ScrollingFrame
+Sniper.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sniper.BackgroundTransparency = 1.000
+Sniper.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Sniper.Position = UDim2.new(0.130136982, 0, 0.0917479396, 0)
+Sniper.Size = UDim2.new(0, 108, 0, 27)
+Sniper.Font = Enum.Font.SourceSans
+Sniper.Text = "Sniper"
+Sniper.TextColor3 = Color3.fromRGB(0, 0, 0)
+Sniper.TextSize = 14.000
+Sniper.MouseButton1Down:connect(function()
+local x = 183.5
+local y = 306.6
+local z = 179
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Assualt.Name = "Assualt"
+Assualt.Parent = ScrollingFrame
+Assualt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Assualt.BackgroundTransparency = 1.000
+Assualt.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Assualt.Position = UDim2.new(0.130136982, 0, 0.15424794, 0)
+Assualt.Size = UDim2.new(0, 108, 0, 27)
+Assualt.Font = Enum.Font.SourceSans
+Assualt.Text = "Assualt Gun"
+Assualt.TextColor3 = Color3.fromRGB(0, 0, 0)
+Assualt.TextSize = 14.000
+Assualt.MouseButton1Down:connect(function()
+local x = 111.5
+local y = 335.5
+local z = 564.3
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Pistiol.Name = "Pistiol"
+Pistiol.Parent = ScrollingFrame
+Pistiol.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pistiol.BackgroundTransparency = 1.000
+Pistiol.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Pistiol.Position = UDim2.new(0.130136982, 0, 0.208683416, 0)
+Pistiol.Size = UDim2.new(0, 108, 0, 27)
+Pistiol.Font = Enum.Font.SourceSans
+Pistiol.Text = "Pistol"
+Pistiol.TextColor3 = Color3.fromRGB(0, 0, 0)
+Pistiol.TextSize = 14.000
+Pistiol.MouseButton1Down:connect(function()
+local x = 60.7
+local y = 291.5
+local z = 263.3
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+ShotGun.Name = "ShotGun"
+ShotGun.Parent = ScrollingFrame
+ShotGun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ShotGun.BackgroundTransparency = 1.000
+ShotGun.BorderColor3 = Color3.fromRGB(1, 52, 53)
+ShotGun.Position = UDim2.new(0.130136982, 0, 0.259086639, 0)
+ShotGun.Size = UDim2.new(0, 108, 0, 27)
+ShotGun.Font = Enum.Font.SourceSans
+ShotGun.Text = "Shotgun"
+ShotGun.TextColor3 = Color3.fromRGB(0, 0, 0)
+ShotGun.TextSize = 14.000
+ShotGun.MouseButton1Down:connect(function()
+local x = 142.8
+local y = 333.6
+local z = 498.4
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Future.Name = "Future"
+Future.Parent = ScrollingFrame
+Future.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Future.BackgroundTransparency = 1.000
+Future.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Future.Position = UDim2.new(0.130136982, 0, 0.472796321, 0)
+Future.Size = UDim2.new(0, 108, 0, 27)
+Future.Font = Enum.Font.SourceSans
+Future.Text = "Fan Gun"
+Future.TextColor3 = Color3.fromRGB(0, 0, 0)
+Future.TextSize = 14.000
+
+
+Awp.Name = "Awp"
+Awp.Parent = ScrollingFrame
+Awp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Awp.BackgroundTransparency = 1.000
+Awp.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Awp.Position = UDim2.new(0.130136982, 0, 0.315538257, 0)
+Awp.Size = UDim2.new(0, 108, 0, 27)
+Awp.Font = Enum.Font.SourceSans
+Awp.Text = "Awp"
+Awp.TextColor3 = Color3.fromRGB(0, 0, 0)
+Awp.TextSize = 14.000
+Awp.MouseButton1Down:connect(function()
+local x = 199
+local y = 268
+local z = 246
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Rifle.Name = "Rifle"
+Rifle.Parent = ScrollingFrame
+Rifle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Rifle.BackgroundTransparency = 1.000
+Rifle.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Rifle.Position = UDim2.new(0.130136982, 0, 0.367957592, 0)
+Rifle.Size = UDim2.new(0, 108, 0, 27)
+Rifle.Font = Enum.Font.SourceSans
+Rifle.Text = "Rifle"
+Rifle.TextColor3 = Color3.fromRGB(0, 0, 0)
+Rifle.TextSize = 14.000
+Rifle.MouseButton1Down:connect(function()
+local x = 107.8
+local y = 323.7
+local z = 679.9
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Subgun.Name = "Subgun"
+Subgun.Parent = ScrollingFrame
+Subgun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Subgun.BackgroundTransparency = 1.000
+Subgun.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Subgun.Position = UDim2.new(0.130136982, 0, 0.420376956, 0)
+Subgun.Size = UDim2.new(0, 108, 0, 27)
+Subgun.Font = Enum.Font.SourceSans
+Subgun.Text = "Sewer Gun"
+Subgun.TextColor3 = Color3.fromRGB(0, 0, 0)
+Subgun.TextSize = 14.000
+Subgun.MouseButton1Down:connect(function()
+local x = 4.41
+local y = 267.7
+local z = 183.8
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Future_2.Name = "Future"
+Future_2.Parent = ScrollingFrame
+Future_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Future_2.BackgroundTransparency = 1.000
+Future_2.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Future_2.Position = UDim2.new(0.130136982, 0, 0.527231812, 0)
+Future_2.Size = UDim2.new(0, 108, 0, 27)
+Future_2.Font = Enum.Font.SourceSans
+Future_2.Text = "Armory Gun"
+Future_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Future_2.TextSize = 14.000
+Future_2.MouseButton1Down:connect(function()
+local x = -144
+local y = 314
+local z = 281
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Back.Name = "Back"
+Back.Parent = Guns_2
+Back.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Back.BackgroundTransparency = 0.450
+Back.Position = UDim2.new(0, 0, -0.00201612897, 0)
+Back.Size = UDim2.new(0, 146, 0, 33)
+Back.Font = Enum.Font.SourceSans
+Back.Text = "Back"
+Back.TextColor3 = Color3.fromRGB(0, 0, 0)
+Back.TextSize = 14.000
+Back.MouseButton1Down:connect(function()
+Guns_2.Visible = false
+MainGui.Visible = true
+end)
+
+Codes_2.Name = "Codes"
+Codes_2.Parent = Main
+Codes_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Codes_2.BackgroundTransparency = 0.750
+Codes_2.Position = UDim2.new(0, 0, 0.310204089, 0)
+Codes_2.Size = UDim2.new(0, 146, 0, 248)
+Codes_2.Visible = false
+
+ScrollingFrame_2.Parent = Codes_2
+ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_2.BackgroundTransparency = 1.000
+ScrollingFrame_2.Position = UDim2.new(0, 0, 0.133064523, 0)
+ScrollingFrame_2.Size = UDim2.new(0, 146, 0, 215)
+
+Truck.Name = "Truck"
+Truck.Parent = ScrollingFrame_2
+Truck.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Truck.BackgroundTransparency = 1.000
+Truck.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Truck.Position = UDim2.new(0.130136982, 0, 0.0312640704, 0)
+Truck.Size = UDim2.new(0, 108, 0, 27)
+Truck.Font = Enum.Font.SourceSans
+Truck.Text = "Truck"
+Truck.TextColor3 = Color3.fromRGB(0, 0, 0)
+Truck.TextSize = 14.000
+Truck.MouseButton1Down:connect(function()
+local x = 380.5
+local y = 517.5
+local z = 294.1
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+SpawnSign.Name = "Spawn Sign"
+SpawnSign.Parent = ScrollingFrame_2
+SpawnSign.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpawnSign.BackgroundTransparency = 1.000
+SpawnSign.BorderColor3 = Color3.fromRGB(1, 52, 53)
+SpawnSign.Position = UDim2.new(0.130136982, 0, 0.0917479396, 0)
+SpawnSign.Size = UDim2.new(0, 108, 0, 27)
+SpawnSign.Font = Enum.Font.SourceSans
+SpawnSign.Text = "Spawn Sign"
+SpawnSign.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpawnSign.TextSize = 14.000
+SpawnSign.MouseButton1Down:connect(function()
+local x = 330
+local y = 511.5
+local z = 295.1
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+ClownRoom.Name = "Clown Room"
+ClownRoom.Parent = ScrollingFrame_2
+ClownRoom.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ClownRoom.BackgroundTransparency = 1.000
+ClownRoom.BorderColor3 = Color3.fromRGB(1, 52, 53)
+ClownRoom.Position = UDim2.new(0.130136982, 0, 0.15424794, 0)
+ClownRoom.Size = UDim2.new(0, 108, 0, 27)
+ClownRoom.Font = Enum.Font.SourceSans
+ClownRoom.Text = "Clown Room"
+ClownRoom.TextColor3 = Color3.fromRGB(0, 0, 0)
+ClownRoom.TextSize = 14.000
+ClownRoom.MouseButton1Down:connect(function()
+local x = 251.5
+local y = 313.4
+local z = 275.1
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Kitchen.Name = "Kitchen"
+Kitchen.Parent = ScrollingFrame_2
+Kitchen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Kitchen.BackgroundTransparency = 1.000
+Kitchen.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Kitchen.Position = UDim2.new(0.130136982, 0, 0.208683416, 0)
+Kitchen.Size = UDim2.new(0, 108, 0, 27)
+Kitchen.Font = Enum.Font.SourceSans
+Kitchen.Text = "Kitchen"
+Kitchen.TextColor3 = Color3.fromRGB(0, 0, 0)
+Kitchen.TextSize = 14.000
+Kitchen.MouseButton1Down:connect(function()
+local x = 295.2
+local y = 314.3
+local z = 285.6
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Camras.Name = "Camras"
+Camras.Parent = ScrollingFrame_2
+Camras.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Camras.BackgroundTransparency = 1.000
+Camras.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Camras.Position = UDim2.new(0.130136982, 0, 0.259086639, 0)
+Camras.Size = UDim2.new(0, 108, 0, 27)
+Camras.Font = Enum.Font.SourceSans
+Camras.Text = "Camras"
+Camras.TextColor3 = Color3.fromRGB(0, 0, 0)
+Camras.TextSize = 14.000
+Camras.MouseButton1Down:connect(function()
+local x = 74
+local y = 313.5
+local z = 163.3
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Slendermen.Name = "Slendermen "
+Slendermen.Parent = ScrollingFrame_2
+Slendermen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slendermen.BackgroundTransparency = 1.000
+Slendermen.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Slendermen.Position = UDim2.new(0.130136982, 0, 0.472796321, 0)
+Slendermen.Size = UDim2.new(0, 108, 0, 27)
+Slendermen.Font = Enum.Font.SourceSans
+Slendermen.Text = "Slendmen room"
+Slendermen.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slendermen.TextSize = 14.000
+Slendermen.MouseButton1Down:connect(function()
+local x = 22.2
+local y = 313.5
+local z = 370.2
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Crates.Name = "Crates"
+Crates.Parent = ScrollingFrame_2
+Crates.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Crates.BackgroundTransparency = 1.000
+Crates.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Crates.Position = UDim2.new(0.130136982, 0, 0.315538257, 0)
+Crates.Size = UDim2.new(0, 108, 0, 27)
+Crates.Font = Enum.Font.SourceSans
+Crates.Text = "Crates"
+Crates.TextColor3 = Color3.fromRGB(0, 0, 0)
+Crates.TextSize = 14.000
+Crates.MouseButton1Down:connect(function()
+local x = 199.4
+local y = 313.4
+local z = 240
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+TpDevice.Name = "Tp Device"
+TpDevice.Parent = ScrollingFrame_2
+TpDevice.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TpDevice.BackgroundTransparency = 1.000
+TpDevice.BorderColor3 = Color3.fromRGB(1, 52, 53)
+TpDevice.Position = UDim2.new(0.130136982, 0, 0.367957592, 0)
+TpDevice.Size = UDim2.new(0, 108, 0, 27)
+TpDevice.Font = Enum.Font.SourceSans
+TpDevice.Text = "Tp Device"
+TpDevice.TextColor3 = Color3.fromRGB(0, 0, 0)
+TpDevice.TextSize = 14.000
+TpDevice.MouseButton1Down:connect(function()
+local x = 111.7
+local y = 313.5
+local z = 26.5
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Sewer.Name = "Sewer"
+Sewer.Parent = ScrollingFrame_2
+Sewer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sewer.BackgroundTransparency = 1.000
+Sewer.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Sewer.Position = UDim2.new(0.130136982, 0, 0.420376956, 0)
+Sewer.Size = UDim2.new(0, 108, 0, 27)
+Sewer.Font = Enum.Font.SourceSans
+Sewer.Text = "Sewer"
+Sewer.TextColor3 = Color3.fromRGB(0, 0, 0)
+Sewer.TextSize = 14.000
+Sewer.MouseButton1Down:connect(function()
+local x = 85.5
+local y = 271.7
+local z = 178.3
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Gate1.Name = "Gate 1"
+Gate1.Parent = ScrollingFrame_2
+Gate1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gate1.BackgroundTransparency = 1.000
+Gate1.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Gate1.Position = UDim2.new(0.130136982, 0, 0.527231812, 0)
+Gate1.Size = UDim2.new(0, 108, 0, 27)
+Gate1.Font = Enum.Font.SourceSans
+Gate1.Text = "Gate 1"
+Gate1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Gate1.TextSize = 14.000
+Gate1.MouseButton1Down:connect(function()
+local x = 75.5
+local y = 313.5
+local z = 616.2
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Gate2.Name = "Gate 2"
+Gate2.Parent = ScrollingFrame_2
+Gate2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gate2.BackgroundTransparency = 1.000
+Gate2.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Gate2.Position = UDim2.new(0.130136982, 0, 0.581667304, 0)
+Gate2.Size = UDim2.new(0, 108, 0, 27)
+Gate2.Font = Enum.Font.SourceSans
+Gate2.Text = "Gate 2"
+Gate2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Gate2.TextSize = 14.000
+Gate2.MouseButton1Down:connect(function()
+local x = 46.4
+local y = 313.5
+local z = 616
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+GateRoom.Name = "Gate Room"
+GateRoom.Parent = ScrollingFrame_2
+GateRoom.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GateRoom.BackgroundTransparency = 1.000
+GateRoom.BorderColor3 = Color3.fromRGB(1, 52, 53)
+GateRoom.Position = UDim2.new(0.130136982, 0, 0.636102796, 0)
+GateRoom.Size = UDim2.new(0, 108, 0, 27)
+GateRoom.Font = Enum.Font.SourceSans
+GateRoom.Text = "Gate room"
+GateRoom.TextColor3 = Color3.fromRGB(0, 0, 0)
+GateRoom.TextSize = 14.000
+GateRoom.MouseButton1Down:connect(function()
+local x = 60.9
+local y = 313.5
+local z = 530.3
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+RandomPc.Name = "Random Pc"
+RandomPc.Parent = ScrollingFrame_2
+RandomPc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RandomPc.BackgroundTransparency = 1.000
+RandomPc.BorderColor3 = Color3.fromRGB(1, 52, 53)
+RandomPc.Position = UDim2.new(0.130136982, 0, 0.690538287, 0)
+RandomPc.Size = UDim2.new(0, 108, 0, 27)
+RandomPc.Font = Enum.Font.SourceSans
+RandomPc.Text = "Random Pc"
+RandomPc.TextColor3 = Color3.fromRGB(0, 0, 0)
+RandomPc.TextSize = 14.000
+RandomPc.MouseButton1Down:connect(function()
+local x = 171.4
+local y = 313.5
+local z = 435
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Cafe.Name = "Cafe"
+Cafe.Parent = ScrollingFrame_2
+Cafe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Cafe.BackgroundTransparency = 1.000
+Cafe.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Cafe.Position = UDim2.new(0.130136982, 0, 0.744973779, 0)
+Cafe.Size = UDim2.new(0, 108, 0, 27)
+Cafe.Font = Enum.Font.SourceSans
+Cafe.Text = "Cafe"
+Cafe.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cafe.TextSize = 14.000
+Cafe.MouseButton1Down:connect(function()
+local x = 177.5
+local y = 333.5
+local z = 619.8
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Sonci.Name = "Sonci"
+Sonci.Parent = ScrollingFrame_2
+Sonci.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sonci.BackgroundTransparency = 1.000
+Sonci.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Sonci.Position = UDim2.new(0.130136982, 0, 0.853844762, 0)
+Sonci.Size = UDim2.new(0, 108, 0, 27)
+Sonci.Font = Enum.Font.SourceSans
+Sonci.Text = "Sonic"
+Sonci.TextColor3 = Color3.fromRGB(0, 0, 0)
+Sonci.TextSize = 14.000
+Sonci.MouseButton1Down:connect(function()
+local x = 148.4
+local y = 329.3
+local z = 604.5
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+MeetingRoom.Name = "Meeting Room"
+MeetingRoom.Parent = ScrollingFrame_2
+MeetingRoom.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MeetingRoom.BackgroundTransparency = 1.000
+MeetingRoom.BorderColor3 = Color3.fromRGB(1, 52, 53)
+MeetingRoom.Position = UDim2.new(0.130136982, 0, 0.79940927, 0)
+MeetingRoom.Size = UDim2.new(0, 108, 0, 27)
+MeetingRoom.Font = Enum.Font.SourceSans
+MeetingRoom.Text = "Meeting room"
+MeetingRoom.TextColor3 = Color3.fromRGB(0, 0, 0)
+MeetingRoom.TextSize = 14.000
+MeetingRoom.MouseButton1Down:connect(function()
+local x = 193.4
+local y = 333.5
+local z = 474.2
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Packapunchwall.Name = "Pack a punch wall"
+Packapunchwall.Parent = ScrollingFrame_2
+Packapunchwall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Packapunchwall.BackgroundTransparency = 1.000
+Packapunchwall.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Packapunchwall.Position = UDim2.new(0.130136982, 0, 0.908280253, 0)
+Packapunchwall.Size = UDim2.new(0, 108, 0, 27)
+Packapunchwall.Font = Enum.Font.SourceSans
+Packapunchwall.Text = " Pack a punch wall"
+Packapunchwall.TextColor3 = Color3.fromRGB(0, 0, 0)
+Packapunchwall.TextSize = 14.000
+Packapunchwall.MouseButton1Down:connect(function()
+local x = 273
+local y = 323.5
+local z = 731.2
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Back_2.Name = "Back"
+Back_2.Parent = Codes_2
+Back_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Back_2.BackgroundTransparency = 0.450
+Back_2.Position = UDim2.new(0, 0, -0.00201612897, 0)
+Back_2.Size = UDim2.new(0, 146, 0, 33)
+Back_2.Font = Enum.Font.SourceSans
+Back_2.Text = "Back"
+Back_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Back_2.TextSize = 14.000
+Back_2.MouseButton1Down:connect(function()
+Codes_2.Visible = false
+MainGui.Visible = true
+end)
+
+Rooms_2.Name = "Rooms"
+Rooms_2.Parent = Main
+Rooms_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Rooms_2.BackgroundTransparency = 0.750
+Rooms_2.Position = UDim2.new(0, 0, 0.310204089, 0)
+Rooms_2.Size = UDim2.new(0, 146, 0, 248)
+Rooms_2.Visible = false
+
+ScrollingFrame_3.Parent = Rooms_2
+ScrollingFrame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_3.BackgroundTransparency = 1.000
+ScrollingFrame_3.Position = UDim2.new(0, 0, 0.133064523, 0)
+ScrollingFrame_3.Size = UDim2.new(0, 146, 0, 215)
+
+Spawn.Name = "Spawn"
+Spawn.Parent = ScrollingFrame_3
+Spawn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Spawn.BackgroundTransparency = 1.000
+Spawn.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Spawn.Position = UDim2.new(0.130136982, 0, 0.0312640704, 0)
+Spawn.Size = UDim2.new(0, 108, 0, 27)
+Spawn.Font = Enum.Font.SourceSans
+Spawn.Text = "Spawn"
+Spawn.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spawn.TextSize = 14.000
+Spawn.MouseButton1Down:connect(function()
+local x = 326.4
+local y = 551.5
+local z = 398.3
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Firstroom.Name = "Firstroom"
+Firstroom.Parent = ScrollingFrame_3
+Firstroom.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Firstroom.BackgroundTransparency = 1.000
+Firstroom.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Firstroom.Position = UDim2.new(0.130136982, 0, 0.0917479396, 0)
+Firstroom.Size = UDim2.new(0, 108, 0, 27)
+Firstroom.Font = Enum.Font.SourceSans
+Firstroom.Text = "First Door"
+Firstroom.TextColor3 = Color3.fromRGB(0, 0, 0)
+Firstroom.TextSize = 14.000
+Firstroom.MouseButton1Down:connect(function()
+local x = 326.1
+local y = 551.5
+local z = 270.9
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Ammo_2.Name = "Ammo_2"
+Ammo_2.Parent = ScrollingFrame_3
+Ammo_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Ammo_2.BackgroundTransparency = 1.000
+Ammo_2.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Ammo_2.Position = UDim2.new(0.130136982, 0, 0.15424794, 0)
+Ammo_2.Size = UDim2.new(0, 108, 0, 27)
+Ammo_2.Font = Enum.Font.SourceSans
+Ammo_2.Text = "Ammo"
+Ammo_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ammo_2.TextSize = 14.000
+Ammo_2.MouseButton1Down:connect(function()
+local x = 183.2
+local y = 313.6
+local z = 425.2
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Camras_2.Name = "Camras"
+Camras_2.Parent = ScrollingFrame_3
+Camras_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Camras_2.BackgroundTransparency = 1.000
+Camras_2.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Camras_2.Position = UDim2.new(0.130136982, 0, 0.208683416, 0)
+Camras_2.Size = UDim2.new(0, 108, 0, 27)
+Camras_2.Font = Enum.Font.SourceSans
+Camras_2.Text = "Camras"
+Camras_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Camras_2.TextSize = 14.000
+Camras_2.MouseButton1Down:connect(function()
+local x = 91.2
+local y = 314
+local z = 172.4
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Kitchen_2.Name = "Kitchen"
+Kitchen_2.Parent = ScrollingFrame_3
+Kitchen_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Kitchen_2.BackgroundTransparency = 1.000
+Kitchen_2.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Kitchen_2.Position = UDim2.new(0.130136982, 0, 0.259086639, 0)
+Kitchen_2.Size = UDim2.new(0, 108, 0, 27)
+Kitchen_2.Font = Enum.Font.SourceSans
+Kitchen_2.Text = "Kitchen"
+Kitchen_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Kitchen_2.TextSize = 14.000
+Kitchen_2.MouseButton1Down:connect(function()
+local x = 295.2
+local y = 314.3
+local z = 285.6
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Packapunch.Name = "Pack a punch"
+Packapunch.Parent = ScrollingFrame_3
+Packapunch.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Packapunch.BackgroundTransparency = 1.000
+Packapunch.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Packapunch.Position = UDim2.new(0.130136982, 0, 0.472796321, 0)
+Packapunch.Size = UDim2.new(0, 108, 0, 27)
+Packapunch.Font = Enum.Font.SourceSans
+Packapunch.Text = "Pack a Punch"
+Packapunch.TextColor3 = Color3.fromRGB(0, 0, 0)
+Packapunch.TextSize = 14.000
+Packapunch.MouseButton1Down:connect(function()
+local x = 281
+local y = 325.5
+local z = 784
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+UFo.Name = "UFo"
+UFo.Parent = ScrollingFrame_3
+UFo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UFo.BackgroundTransparency = 1.000
+UFo.BorderColor3 = Color3.fromRGB(1, 52, 53)
+UFo.Position = UDim2.new(0.130136982, 0, 0.315538257, 0)
+UFo.Size = UDim2.new(0, 108, 0, 27)
+UFo.Font = Enum.Font.SourceSans
+UFo.Text = "UFO"
+UFo.TextColor3 = Color3.fromRGB(0, 0, 0)
+UFo.TextSize = 14.000
+UFo.MouseButton1Down:connect(function()
+local x = 15
+local y = 313.4
+local z = 451.7
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+LockedRoom.Name = "LockedRoom"
+LockedRoom.Parent = ScrollingFrame_3
+LockedRoom.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LockedRoom.BackgroundTransparency = 1.000
+LockedRoom.BorderColor3 = Color3.fromRGB(1, 52, 53)
+LockedRoom.Position = UDim2.new(0.130136982, 0, 0.367957592, 0)
+LockedRoom.Size = UDim2.new(0, 108, 0, 27)
+LockedRoom.Font = Enum.Font.SourceSans
+LockedRoom.Text = "Locked Room"
+LockedRoom.TextColor3 = Color3.fromRGB(0, 0, 0)
+LockedRoom.TextSize = 14.000
+LockedRoom.MouseButton1Down:connect(function()
+local x = 21.4
+local y = 313.5
+local z = 202.5
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+Commandarea.Name = "Commandarea"
+Commandarea.Parent = ScrollingFrame_3
+Commandarea.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Commandarea.BackgroundTransparency = 1.000
+Commandarea.BorderColor3 = Color3.fromRGB(1, 52, 53)
+Commandarea.Position = UDim2.new(0.130136982, 0, 0.420376956, 0)
+Commandarea.Size = UDim2.new(0, 108, 0, 27)
+Commandarea.Font = Enum.Font.SourceSans
+Commandarea.Text = "Command Area"
+Commandarea.TextColor3 = Color3.fromRGB(0, 0, 0)
+Commandarea.TextSize = 14.000
+Commandarea.MouseButton1Down:connect(function()
+local x = 138.42
+local y = 333.5
+local z = 535.41
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+JailCells.Name = "Jail Cells"
+JailCells.Parent = ScrollingFrame_3
+JailCells.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JailCells.BackgroundTransparency = 1.000
+JailCells.BorderColor3 = Color3.fromRGB(1, 52, 53)
+JailCells.Position = UDim2.new(0.130136982, 0, 0.527231812, 0)
+JailCells.Size = UDim2.new(0, 108, 0, 27)
+JailCells.Font = Enum.Font.SourceSans
+JailCells.Text = "Jail Cells"
+JailCells.TextColor3 = Color3.fromRGB(0, 0, 0)
+JailCells.TextSize = 14.000
+JailCells.MouseButton1Down:connect(function()
+local x = 97.7
+local y = 291.5
+local z = 241.4
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+More.Name = "More"
+More.Parent = ScrollingFrame_3
+More.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+More.BackgroundTransparency = 1.000
+More.BorderColor3 = Color3.fromRGB(1, 52, 53)
+More.Position = UDim2.new(0.130136982, 0, 0.581667304, 0)
+More.Size = UDim2.new(0, 108, 0, 27)
+More.Font = Enum.Font.SourceSans
+More.Text = "Office"
+More.TextColor3 = Color3.fromRGB(0, 0, 0)
+More.TextSize = 14.000
+More.MouseButton1Down:connect(function()
+local x = -7
+local y = 293
+local z = 291
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+More_2.Name = "More"
+More_2.Parent = ScrollingFrame_3
+More_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+More_2.BackgroundTransparency = 1.000
+More_2.BorderColor3 = Color3.fromRGB(1, 52, 53)
+More_2.Position = UDim2.new(0.130136982, 0, 0.636102796, 0)
+More_2.Size = UDim2.new(0, 108, 0, 27)
+More_2.Font = Enum.Font.SourceSans
+More_2.Text = "Control Door"
+More_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+More_2.TextSize = 14.000
+More_2.MouseButton1Down:connect(function()
+local x = -48
+local y = 314
+local z = 290
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+More_3.Name = "More"
+More_3.Parent = ScrollingFrame_3
+More_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+More_3.BackgroundTransparency = 1.000
+More_3.BorderColor3 = Color3.fromRGB(1, 52, 53)
+More_3.Position = UDim2.new(0.130136982, 0, 0.690538287, 0)
+More_3.Size = UDim2.new(0, 108, 0, 27)
+More_3.Font = Enum.Font.SourceSans
+More_3.Text = "Armory"
+More_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+More_3.TextSize = 14.000
+More_3.MouseButton1Down:connect(function()
+local x = -133
+local y = 313
+local z = 281
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+More_4.Name = "More"
+More_4.Parent = ScrollingFrame_3
+More_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+More_4.BackgroundTransparency = 1.000
+More_4.BorderColor3 = Color3.fromRGB(1, 52, 53)
+More_4.Position = UDim2.new(0.130136982, 0, 0.744973779, 0)
+More_4.Size = UDim2.new(0, 108, 0, 27)
+More_4.Font = Enum.Font.SourceSans
+More_4.Text = "Armory 2"
+More_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+More_4.TextSize = 14.000
+More_4.MouseButton1Down:connect(function()
+local x = -161
+local y = 294
+local z = 316
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+More_5.Name = "More"
+More_5.Parent = ScrollingFrame_3
+More_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+More_5.BackgroundTransparency = 1.000
+More_5.BorderColor3 = Color3.fromRGB(1, 52, 53)
+More_5.Position = UDim2.new(0.130136982, 0, 0.799409211, 0)
+More_5.Size = UDim2.new(0, 108, 0, 27)
+More_5.Font = Enum.Font.SourceSans
+More_5.Text = "Big Boy"
+More_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+More_5.TextSize = 14.000
+More_5.MouseButton1Down:connect(function()
+local x = 178
+local y = 314
+local z = 562
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+
+More_6.Name = "More"
+More_6.Parent = ScrollingFrame_3
+More_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+More_6.BackgroundTransparency = 1.000
+More_6.BorderColor3 = Color3.fromRGB(1, 52, 53)
+More_6.Position = UDim2.new(0.130136982, 0, 0.851828575, 0)
+More_6.Size = UDim2.new(0, 108, 0, 27)
+More_6.Font = Enum.Font.SourceSans
+More_6.Text = "More to Come"
+More_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+More_6.TextSize = 14.000
+
+More_7.Name = "More"
+More_7.Parent = ScrollingFrame_3
+More_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+More_7.BackgroundTransparency = 1.000
+More_7.BorderColor3 = Color3.fromRGB(1, 52, 53)
+More_7.Position = UDim2.new(0.130136982, 0, 0.90424794, 0)
+More_7.Size = UDim2.new(0, 108, 0, 27)
+More_7.Font = Enum.Font.SourceSans
+More_7.Text = "Fan Gun"
+More_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+More_7.TextSize = 14.000
+More_7.MouseButton1Down:connect(function()
+local x = 227
+local y = 289
+local z = 225
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z))
+end)
+
+
+Back_3.Name = "Back"
+Back_3.Parent = Rooms_2
+Back_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Back_3.BackgroundTransparency = 0.450
+Back_3.Position = UDim2.new(0, 0, -0.00201612897, 0)
+Back_3.Size = UDim2.new(0, 146, 0, 33)
+Back_3.Font = Enum.Font.SourceSans
+Back_3.Text = "Back"
+Back_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Back_3.TextSize = 14.000
+Back_3.MouseButton1Down:connect(function()
+Rooms_2.Visible = false
+MainGui.Visible = true
+end)
+
+Extra.Name = "Extra"
+Extra.Parent = Main
+Extra.Active = true
+Extra.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Extra.BackgroundTransparency = 0.750
+Extra.Position = UDim2.new(0, 0, 0.310204089, 0)
+Extra.Size = UDim2.new(0, 146, 0, 248)
+Extra.Visible = false
+
+ScrollingFrame_4.Parent = Extra
+ScrollingFrame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame_4.BackgroundTransparency = 1.000
+ScrollingFrame_4.Position = UDim2.new(0, 0, 0.133064523, 0)
+ScrollingFrame_4.Size = UDim2.new(0, 146, 0, 215)
+
+TextButton.Parent = ScrollingFrame_4
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderColor3 = Color3.fromRGB(1, 52, 53)
+TextButton.Position = UDim2.new(0.130136982, 0, 0.0312640704, 0)
+TextButton.Size = UDim2.new(0, 108, 0, 27)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+TextButton_2.Parent = ScrollingFrame_4
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.BorderColor3 = Color3.fromRGB(1, 52, 53)
+TextButton_2.Position = UDim2.new(0.130136982, 0, 0.0917479396, 0)
+TextButton_2.Size = UDim2.new(0, 108, 0, 27)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+TextButton_3.Parent = ScrollingFrame_4
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.BorderColor3 = Color3.fromRGB(1, 52, 53)
+TextButton_3.Position = UDim2.new(0.130136982, 0, 0.15424794, 0)
+TextButton_3.Size = UDim2.new(0, 108, 0, 27)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+TextButton_4.Parent = ScrollingFrame_4
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.BorderColor3 = Color3.fromRGB(1, 52, 53)
+TextButton_4.Position = UDim2.new(0.130136982, 0, 0.208683416, 0)
+TextButton_4.Size = UDim2.new(0, 108, 0, 27)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+
+TextButton_5.Parent = ScrollingFrame_4
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.BackgroundTransparency = 1.000
+TextButton_5.BorderColor3 = Color3.fromRGB(1, 52, 53)
+TextButton_5.Position = UDim2.new(0.130136982, 0, 0.259086639, 0)
+TextButton_5.Size = UDim2.new(0, 108, 0, 27)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+
+TextButton_6.Parent = ScrollingFrame_4
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.BackgroundTransparency = 1.000
+TextButton_6.BorderColor3 = Color3.fromRGB(1, 52, 53)
+TextButton_6.Position = UDim2.new(0.130136982, 0, 0.472796321, 0)
+TextButton_6.Size = UDim2.new(0, 108, 0, 27)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextSize = 14.000
+
+TextButton_7.Parent = ScrollingFrame_4
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.BackgroundTransparency = 1.000
+TextButton_7.BorderColor3 = Color3.fromRGB(1, 52, 53)
+TextButton_7.Position = UDim2.new(0.130136982, 0, 0.315538257, 0)
+TextButton_7.Size = UDim2.new(0, 108, 0, 27)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextSize = 14.000
+
+TextButton_8.Parent = ScrollingFrame_4
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.BackgroundTransparency = 1.000
+TextButton_8.BorderColor3 = Color3.fromRGB(1, 52, 53)
+TextButton_8.Position = UDim2.new(0.130136982, 0, 0.367957592, 0)
+TextButton_8.Size = UDim2.new(0, 108, 0, 27)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.TextSize = 14.000
+
+TextButton_9.Parent = ScrollingFrame_4
+TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.BackgroundTransparency = 1.000
+TextButton_9.BorderColor3 = Color3.fromRGB(1, 52, 53)
+TextButton_9.Position = UDim2.new(0.130136982, 0, 0.420376956, 0)
+TextButton_9.Size = UDim2.new(0, 108, 0, 27)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextSize = 14.000
+
+Back_4.Name = "Back"
+Back_4.Parent = Extra
+Back_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Back_4.BackgroundTransparency = 0.450
+Back_4.Position = UDim2.new(0, 0, -0.00201612897, 0)
+Back_4.Size = UDim2.new(0, 146, 0, 33)
+Back_4.Font = Enum.Font.SourceSans
+Back_4.Text = "Back"
+Back_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Back_4.TextSize = 14.000
