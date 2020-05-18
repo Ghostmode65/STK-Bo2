@@ -1,29 +1,26 @@
-STKv4.1
-By Ghostmode65
+--STKv4.1
+--By Ghostmode65
 
+--Update
 
-Update
-
-Use arrow keys to hide or show gui
-< Hide
-> Open
-Esp/ x-ray
+--Use arrow keys to hide or show gui
+--< Hide
+--> Open
+--Esp/ x-ray
 Fort In endless
 
-Now toggoble- 
-anti afk
-Godmode
-Inifite Ammo
-Killers Hit box
-Juger hit box+
-Inifinte ammo2
-Killers hit+
+--Now toggoble- 
+--anti afk
+--Godmode
+--Inifite Ammo
+--Killers Hit box
+--Juger hit box+
+--Inifinte ammo2
+--Killers hit+
 
-Fixed 
-Infinite Yeild not loading
-Chat Bypass Not Loading
-
-
+--Fixed 
+--Infinite Yeild not loading
+--Chat Bypass Not Loading
 
 --[[
 IronBrew:tm: obfuscation; Version 2.7.2
