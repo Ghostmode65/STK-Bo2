@@ -1,1 +1,11 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v7/STKv7-Engine-7-02%20Beta.txt'))()
+--STKv7 Engine
+--By Ghostmode65
+--Classic Gamemode
+
+
+--Other gamemodes will be coming out after I fix a couple things
+--Loadstring Verison AutoUpdates
+
+
+
+loadstring(game:HttpGet('https://github.com/Ghostmode65/STK-Bo2/blob/master/STK-Menus/v7/STv7-Engine-Classic-7.00.txt'))()
