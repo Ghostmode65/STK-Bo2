@@ -2,10 +2,13 @@
 --By Ghostmode65
 --Classic Gamemode
 
-
 --Other gamemodes will be coming out after I fix a couple things
 --Loadstring Verison AutoUpdates
 
 
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v7/STv7-Engine-Classic-7-00.txt'))()
+
+----------------Update Log----------------
+----7.01 
+--Fix Nerfkillers & AutoFarm 
