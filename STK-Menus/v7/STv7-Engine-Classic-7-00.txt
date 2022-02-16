@@ -280,6 +280,7 @@ elseif  game.PlaceId == 5740483929 then
 	Loading() 
 elseif game.PlaceId == 3182083477 then 
 	Loading() else 
+print("Warning This gamemode is not supported yet")
 	--game.Players.LocalPlayer:Kick("Wrong Gamemode Retard")
 	--	wait(1) firetouchinterest(Player.Character,game:GetService("Workspace").PACKAPUNCH.GUI, 0) 
 
