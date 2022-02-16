@@ -12,3 +12,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/m
 ----------------Update Log----------------
 ----7.01 
 --Fix Nerfkillers & AutoFarm 
+
+--7.02
+--Fix Delete Menu
+--Fix Dex V4 Tool
