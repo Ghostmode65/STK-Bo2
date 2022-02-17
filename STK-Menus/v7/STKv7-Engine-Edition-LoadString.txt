@@ -16,3 +16,8 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/m
 --7.02
 --Fix Delete Menu
 --Fix Dex V4 Tool
+
+--7.03
+--GetCode shows in chat window
+--Fix for item and player teleports
+--Possibly fixed script from crashing on first execution
