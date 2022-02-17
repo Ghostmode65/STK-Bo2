@@ -9,6 +9,10 @@
 --Enjoy Hacking on this game, & Feel free to share just don't take credit & use the link above
 
 
+--7.03
+--Add GetCode displays in chat
+--Maybe Fix HumanoidRoot issue, Teleports for items and player should be resovled 
+
 --7.02
 --Fix Delete Menu
 --Fix Dex V4 Tool
@@ -81,7 +85,7 @@ TSBBulleta_Roundify_12px = CreateInstance('ImageLabel',{Image='rbxassetid://3570
 InfoBar = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=0.9800000190734863,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0.157320887, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 288, 0, 537),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=-1,Name = 'InfoBar',Parent = Engine})
 MenuType = CreateInstance('TextLabel',{Font=Enum.Font.Fondamento,FontSize=Enum.FontSize.Size14,Text='Main Menu',TextColor3=Color3.new(0.670588, 0.670588, 0.670588),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Bottom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0264721978, 0, 0.0274399221, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 84, 0, 19),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='MenuType',Parent = InfoBar})
 GameType = CreateInstance('TextLabel',{Font=Enum.Font.Fondamento,FontSize=Enum.FontSize.Size14,Text='Classic',TextColor3=Color3.new(0.670588, 0.670588, 0.670588),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Right,TextYAlignment=Enum.TextYAlignment.Bottom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.756111145, 0, 0.0274394751, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 64, 0, 19),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='GameType',Parent = InfoBar})
-Verison_E = CreateInstance('TextLabel',{Font=Enum.Font.TitilliumWeb,FontSize=Enum.FontSize.Size24,Text='02         ',TextColor3=Color3.new(0.415686, 0.415686, 0.415686),TextScaled=false,TextSize=24,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0.41999998688697815,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Bottom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.992157, 0.992157, 0.992157),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0610000007, 0, 0.944000006, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 79, 0, 22),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Verison_E',Parent = InfoBar})
+Verison_E = CreateInstance('TextLabel',{Font=Enum.Font.TitilliumWeb,FontSize=Enum.FontSize.Size24,Text='03         ',TextColor3=Color3.new(0.415686, 0.415686, 0.415686),TextScaled=false,TextSize=24,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0.41999998688697815,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Bottom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.992157, 0.992157, 0.992157),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0610000007, 0, 0.944000006, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 79, 0, 22),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Verison_E',Parent = InfoBar})
 Guns_Settings = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0418857485, 0, 0.248730406, 0),Rotation=0,Selectable=false,Size=UDim2.new(0.932794273, 0, 0.669549346, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=false,ZIndex=1,Name = 'Guns_Settings',Parent = Engine})
 S_infinite_A_GS = CreateInstance('TextButton',{Font=Enum.Font.Fondamento,FontSize=Enum.FontSize.Size24,Text='Infinite Ammo',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=24,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0.10000000149011612,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0260567162, 0, 0.0140000191, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.949316382, 0, 0.0601745248, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='S_infinite_A_GS',Parent = Guns_Settings})
 S_FullAuto = CreateInstance('TextButton',{Font=Enum.Font.Fondamento,FontSize=Enum.FontSize.Size24,Text='Full Auto',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=24,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0.10000000149011612,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0260567162, 0, 0.0735665932, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.949316382, 0, 0.0601745248, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='S_FullAuto',Parent = Guns_Settings})
@@ -275,14 +279,13 @@ function Loading()
 	print("Checking Requirments") 
 end 
 if game.PlaceId == 2092166489 then
-	Loading()
+	Loading() print("Classic Mode Loaded")
 elseif  game.PlaceId == 5740483929 then 
-	Loading() 
+	Loading() print("Classic Hard Mode Loaded")
 elseif game.PlaceId == 3182083477 then 
-	Loading() else 
-print("Warning This gamemode is not supported yet")
-	--game.Players.LocalPlayer:Kick("Wrong Gamemode Retard")
-	--	wait(1) firetouchinterest(Player.Character,game:GetService("Workspace").PACKAPUNCH.GUI, 0) 
+	Loading() print("Classic Extreme Mode Loaded")else 
+	game.Players.LocalPlayer:Kick("Wrong Gamemode")
+	wait(1) firetouchinterest(Player.Character,game:GetService("Workspace").PACKAPUNCH.GUI, 0) 
 
 end
 
@@ -301,7 +304,6 @@ for i,v in pairs(workspace:GetDescendants()) do
 
 --Libary
 Player = game.Players.LocalPlayer 
-Humanoid = Player.Character.HumanoidRootPart   
 AreaW = game:GetService("Workspace").AREA51
 Killers =game:GetService("Workspace").Killers
 UserInputService = game:GetService("UserInputService")
@@ -338,7 +340,7 @@ function BringGun(Gunname)
 		if GunGiver.name == "PUT THE WEAPON IN THIS BRICK" 
 			and GunGiver.Parent.Parent.name == Gunname then 
 			print(GunGiver.Parent.Parent.name) 
-			firetouchinterest(Humanoid,GunGiver, 0) 
+			firetouchinterest(Player.Character.HumanoidRootPart,GunGiver, 0) 
 		end end end  
 
 --Beta Verison
@@ -354,7 +356,7 @@ function BringItem(RoomName)
 		if ItemGiver.name == "PUT THIS IN THE WEAPON" 
 			and ItemGiver.Parent.Parent.name == RoomName then 
 			print(ItemGiver.Parent.Parent.name) 
-			firetouchinterest(Humanoid,ItemGiver.Parent, 0) 
+			firetouchinterest(Player.Character.HumanoidRootPart,ItemGiver.Parent, 0) 
 		end end end  
 
 --Bring Card
@@ -362,7 +364,7 @@ function KeyCard(RoomName)
 	for _,CardReciver in pairs(workspace.AREA51:GetDescendants()) do 
 		if CardReciver.name == "Card" 
 			and CardReciver.Parent.name == RoomName then 
-			firetouchinterest(Humanoid,CardReciver, 0) 
+			firetouchinterest(Player.Character.HumanoidRootPart,CardReciver, 0) 
 		end end end  
 
 --Bring Vest
@@ -374,14 +376,14 @@ function EventItems(RoomName)
 		end end end  
 --Teleport
 function PlayerTp(x,y,z) 
-	Humanoid.CFrame = CFrame.new(Vector3.new(x,y,z)) end
+	Player.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(x,y,z)) end
 
 --GunTeleport
 function GunTp(Gunname)
 	for _,GunReciver in pairs(workspace.AREA51:GetDescendants()) do 
 		if GunReciver.name == "PUT THE WEAPON IN THIS BRICK" 
 			and GunReciver.Parent.Parent.name == Gunname then 
-			Humanoid.CFrame = GunReciver.CFrame * CFrame.new(Vector3.new(1,4,1)) 
+			Player.Character.HumanoidRootPart.CFrame = GunReciver.CFrame * CFrame.new(Vector3.new(1,4,1)) 
 		end end end  
 
 --ItemTeleport
@@ -389,7 +391,7 @@ function ItemTp(RoomName)
 	for _,ItemReciver in pairs(workspace.AREA51:GetDescendants()) do 
 		if ItemReciver.name == "PUT THIS IN THE WEAPON" 
 			and ItemReciver.Parent.Parent.name == RoomName then 
-			Humanoid.CFrame = ItemReciver.Parent.CFrame * CFrame.new(Vector3.new(1,4,1)) 
+			Player.Character.HumanoidRootPart.CFrame = ItemReciver.Parent.CFrame * CFrame.new(Vector3.new(1,4,1)) 
 		end end end  
 --Slider For Bullet COunt
 function SlideV(Framv,Buttvn)
@@ -672,13 +674,13 @@ function GetKeyCards()
 	for _,CardGiver in pairs(workspace.AREA51:GetDescendants()) do 
 		if CardGiver.name == "PUT THIS IN THE WEAPON" 
 			and CardGiver.Parent.name == "Card"
-		then firetouchinterest(Humanoid,CardGiver.Parent, 0) end end end
+		then firetouchinterest(Player.Character.HumanoidRootPart,CardGiver.Parent, 0) end end end
 
 function GetPapers()
 	for _,PaperGiver in pairs(workspace.AREA51:GetDescendants()) do 
 		if PaperGiver.name == "PUT THIS IN THE WEAPON" 
 			and PaperGiver.Parent.name == "Paper"
-		then firetouchinterest(Humanoid,PaperGiver.Parent, 0) end end end
+		then firetouchinterest(Player.Character.HumanoidRootPart,PaperGiver.Parent, 0) end end end
 
 function ForceCloserDoors(Frame)
 	for _,t in pairs(workspace:GetDescendants()) do 
@@ -695,7 +697,7 @@ function TouchPachAPunch() firetouchinterest(Player.Character.Torso,game:GetServ
 end
 function CamaraMode()
 	OldPos = game:GetService("Workspace")["Surveillance Cameras"].Triggers.Seat.CFrame
-	HoldPos = Humanoid.CFrame
+	HoldPos = Player.Character.HumanoidRootPart.CFrame
 	wait()
 	game:GetService("Workspace")["Surveillance Cameras"].Triggers.Seat.CFrame 
 		= game.Players.LocalPlayer.Character.Torso.CFrame
@@ -703,7 +705,7 @@ function CamaraMode()
 	UserInputService.InputBegan:Connect(function(input, gameProcessed)
 		if input.UserInputType == Enum.UserInputType.Keyboard then
 			local keyPressed = input.Space
-			Humanoid.CFrame	= HoldPos    
+			Player.Character.HumanoidRootPart.CFrame	= HoldPos    
 			game:GetService("Workspace")["Surveillance Cameras"].Triggers.Seat.CFrame = OldPos
 		end end) end 
 
@@ -1078,7 +1080,7 @@ function GiveAllGuns2(Frame)
 		for _,GunGiver in pairs(workspace.AREA51:GetDescendants()) do 
 			if GunGiver.name == "PUT THE WEAPON IN THIS BRICK" 
 				and Frame.Text == OnE then 
-				firetouchinterest(Humanoid,GunGiver, 0) end end end end
+				firetouchinterest(Player.Character.HumanoidRootPart,GunGiver, 0) end end end end
 
 function InfiniteAmmo2(Frame)
 	while Frame.Text == OnE do wait(8)
@@ -1095,7 +1097,7 @@ function GetKeyCards2(Frame)
 			if CardGiver.name == "PUT THIS IN THE WEAPON" 
 				and CardGiver.Parent.name == "Card"
 				and Frame.Text == OnE
-			then firetouchinterest(Humanoid,CardGiver.Parent, 0) end end end end
+			then firetouchinterest(Player.Character.HumanoidRootPart,CardGiver.Parent, 0) end end end end
 
 function GetPapers2(Frame)
 	while Frame.Text == OnE do wait(8)
@@ -1103,7 +1105,7 @@ function GetPapers2(Frame)
 			if PaperGiver.name == "PUT THIS IN THE WEAPON" 
 				and PaperGiver.Parent.name == "Paper"
 				and Frame.Text == OnE then 
-				firetouchinterest(Humanoid,PaperGiver.Parent, 0) end end end end
+				firetouchinterest(Player.Character.HumanoidRootPart,PaperGiver.Parent, 0) end end end end
 
 function ForceCloserDoors2(Frame)
 	while Frame.Text == OnE do wait()
@@ -1165,7 +1167,7 @@ function HeavyGunMods2(Frame)
 function BadgeGet()
 	for _,BadgeGiver in pairs(workspace.AREA51:GetDescendants()) do 
 		if BadgeGiver.name == "Badge Giver" 
-		then firetouchinterest(Humanoid,BadgeGiver.Parent, 0) end end  end
+		then firetouchinterest(Player.Character.HumanoidRootPart,BadgeGiver.Parent, 0) end end  end
 
 function InfiniteJump()
 	local Mouse = Player:GetMouse()
@@ -1227,7 +1229,7 @@ function KillerMassTp()
 			if v:IsA 'Humanoid' then if v.Health > 0 and v.Parent.name ~= "Slenderman" 
 					and v.Parent.name ~= "Giant"  
 					and v.Parent.name ~= "Jane" then
-					Humanoid.CFrame	= v.Parent.Torso.CFrame * CFrame.new(Vector3.new(7,2,1)) 
+					Player.Character.HumanoidRootPart.CFrame	= v.Parent.Torso.CFrame * CFrame.new(Vector3.new(7,2,1)) 
 				else if v == nil then
 						PlayerTp(322.9, 511.4, 390.2)  
 					end end end  end end end
@@ -1536,7 +1538,9 @@ S_FCD.MouseButton1Down:connect(function()
 	ForceCloserDoors (T_FCD) end) 
 S_FOD.MouseButton1Down:connect(function()  
 	ForceOpenDoors(T_FOD) end)  
-S_GetCode.MouseButton1Down:connect(function() end)-------------------------------------Not Scripted
+S_GetCode.MouseButton1Down:connect(function() 
+    	loadstring(game:HttpGetAsync("https://github.com/Ghostmode65/STK-Bo2/blob/master/STK-Menus/Scripts/GetCode.txt"))()
+    end)
 S_CamaraMode.MouseButton1Down:connect(function() CamaraMode() end)
 S_GetKeycards.MouseButton1Down:connect(function()GetKeyCards() end)
 S_NerfKillers.MouseButton1Down:connect(function() NerfKillers() end)
@@ -1618,6 +1622,5 @@ TSFireRateBA.MouseButton1Down:connect(function()
 	if TSFirerate_Label.Text == "High" then TSFirerate_Label.Text = "Medium" else TSFirerate_Label.Text = "Low"
 		firerate(TSFirerate_Label)
 	end end)
-
 
 
