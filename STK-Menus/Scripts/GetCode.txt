@@ -1,0 +1,53 @@
+game:GetService("StarterGui"):SetCore("SendNotification", {
+  Title = "Command Code",
+  Text = "Check Command Console"
+})
+
+A = ("http://www.roblox.com/asset/?id=129100599")
+B = ("http://www.roblox.com/asset/?id=94194191")
+C = ("http://www.roblox.com/asset/?id=94194693")
+D = ("http://www.roblox.com/asset/?id=94194940")
+F = ("http://www.roblox.com/asset/?id=94194979")
+G = ("http://www.roblox.com/asset/?id=94195066")
+H = ("http://www.roblox.com/asset/?id=94195245")
+I = ("http://www.roblox.com/asset/?id=94195123")
+J = ("http://www.roblox.com/asset/?id=94195312")
+
+if game:GetService("Workspace").AREA51.CodeModel.Part.Decal.Texture == A or B or C or D or F or G or H or I or J then print("Getting Code")
+    end
+ wait(2)
+ 
+local StarterGui = game:GetService("StarterGui")
+
+
+	local Success = pcall(function()
+	StarterGui:SetCore("ChatMakeSystemMessage", {
+			Text = 'Getting Code'; --The chat message
+			Color = Color3.fromRGB(157, 0, 0); --Chat message color, defaults to white
+			Font = Enum.Font.SourceSansBold; --Chat message font, defaults to SourceSansBold
+			TextSize = 18 --Text size, defaults to 18
+			})end)
+ 
+for i,v in pairs(workspace.AREA51:GetDescendants()) do 
+		if v.Name == "Decal" and v.parent.parent.Name == "CodeModel" then 
+		    
+if v.Texture == A then Wobble=("0") end 
+if v.Texture == B then Wobble=("1")  end 
+if v.Texture == C then Wobble=("2")  end 
+if v.Texture == D then Wobble=("3")  end 
+if v.Texture == F then Wobble=("5")  end 
+if v.Texture == G then Wobble=("6")  end 
+if v.Texture == H then Wobble=("7")  end 
+if v.Texture == I then Wobble=("8")  end 
+if v.Texture == J then Wobble=("9")  end 
+
+
+		StarterGui:SetCore("ChatMakeSystemMessage", {
+			Text = Wobble; --The chat message
+			Color = Color3.fromRGB(0, 255, 255); --Chat message color, defaults to white
+			Font = Enum.Font.SourceSansBold; --Chat message font, defaults to SourceSansBold
+			TextSize = 18 --Text size, defaults to 18
+		})
+	end
+end 
+	
