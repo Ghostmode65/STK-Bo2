@@ -295,8 +295,6 @@ function Notify(NT, NTT)
 		Title = NT, 
 		Text = NTT}) end
 Notify('Gui Loaded', 'Beginning To Load Scripts ')
-if not isfolder('QuickMods') then makefolder('QuickMods') Notify('Folder Not Found', 'Beginning To Make Folder ')
-	writefile('QuickMods/GunState',"Gunstates failed to save") end
 
 --AnitCheat
 for i,v in pairs(workspace:GetDescendants()) do 
