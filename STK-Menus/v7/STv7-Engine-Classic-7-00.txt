@@ -275,7 +275,7 @@ for i = 1, 7 do
 	STKv7_Engine_Edtion.Name = serial
 end
 
-function Loading()
+function Loading()----Remove this section to use the gui on any gamemode
 	print("Checking Requirments") 
 end 
 if game.PlaceId == 2092166489 then
@@ -286,8 +286,7 @@ elseif game.PlaceId == 3182083477 then
 	Loading() print("Classic Extreme Mode Loaded")else 
 	game.Players.LocalPlayer:Kick("Wrong Gamemode")
 	wait(1) firetouchinterest(Player.Character,game:GetService("Workspace").PACKAPUNCH.GUI, 0) 
-
-end
+end---------------------------------------------------------------------
 
 --Notfiy
 function Notify(NT, NTT)
