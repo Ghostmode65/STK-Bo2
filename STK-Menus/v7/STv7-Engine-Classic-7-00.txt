@@ -652,7 +652,7 @@ function SemiInvisble()
 function GiveAllGuns()
 	for _,GunGiver in pairs(workspace.AREA51:GetDescendants()) do 
 		if GunGiver.name == "PUT THE WEAPON IN THIS BRICK" 
-		then firetouchinterest(Humanoid,GunGiver, 0) end end end
+		then firetouchinterest(Player.Character.HumanoidRootPart,GunGiver, 0) end end end
 
 function GiveDeleteTool()
 	local a=Instance.new("Tool")a.RequiresHandle=false;a.Name="Delete"
