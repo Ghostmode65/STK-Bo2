@@ -283,7 +283,6 @@ end
 
 
 --Loadstring Settings
-BypassGamdeMode=false
 
 --PreExecute
 --Unicode Generation
