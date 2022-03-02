@@ -39,7 +39,6 @@
 --7.01
 --Fix Nerfkillers & AutoFarm 
 
-
  function CreateInstance(cls,props)
  inst = Instance.new(cls)
 for i,v in pairs(props) do
@@ -361,19 +360,12 @@ function ClassNameV(V) MenuType.Text = V end
 
 --BringGuns
 function BringGun(Gunname)
-	for _,GunGiver in pairs(workspace.AREA51:GetDescendants()) do 
-		if GunGiver.name == "PUT THE WEAPON IN THIS BRICK" 
-			and GunGiver.Parent.Parent.name == Gunname then 
-			print(GunGiver.Parent.Parent.name) 
-			firetouchinterest(Player.Character.HumanoidRootPart,GunGiver, 0) 
-		end end end  
-
---Beta Verison
---for _,GunGiver in pairs(game:GetService("Workspace").Weapons:GetDescendants()) do 
---if GunGiver.name == "Hitbox"  then 
---	print(GunGiver.Parent.name) 
---firetouchinterest(Humanoid,GunGiver, 0) 
---end end
+	--Beta Verison
+	for _,GunGiver in pairs(game:GetService("Workspace").Weapons:GetDescendants()) do 
+		if GunGiver.name == "Hitbox"  then 
+			print(GunGiver.Parent.name) 
+			firetouchinterest(Humanoid,GunGiver, 0) 
+		end end end
 
 --BringItems
 function BringItem(RoomName)
@@ -706,18 +698,18 @@ function GetPapers()
 		if PaperGiver.name == "PUT THIS IN THE WEAPON" 
 			and PaperGiver.Parent.name == "Paper"
 		then firetouchinterest(Player.Character.HumanoidRootPart,PaperGiver.Parent, 0) end end end
---game:GetService("Workspace").Doors.Vertical.ToElavator.Door.Close.ProximityPrompt
+
 function ForceCloserDoors(Frame)
 	for _,t in pairs(workspace:GetDescendants()) do 
-		if t:IsA'ClickDetector' and t.Parent.name == "Close" then 
-			fireclickdetector(t) end end end
+		if t:IsA'ProximityPrompt' and t.Parent.name == "Close" then 
+			fireproximityprompt(t, 0) end end end
 
 function ClosePachMenu() firetouchinterest(Player.Character.Torso,game:GetService("Workspace").PACKAPUNCH.GUI, 1)  end
 
 function ForceOpenDoors(Frame)
 	for _,t in pairs(workspace:GetDescendants()) do 
-		if t:IsA'ClickDetector' and t.Parent.name == "Open" then
-			fireclickdetector(t) end end end
+		if t:IsA'ProximityPrompt' and t.Parent.name == "Open" then 
+			fireproximityprompt(t, 0) end end end
 function TouchPachAPunch() firetouchinterest(Player.Character.Torso,game:GetService("Workspace").PACKAPUNCH.GUI, 0) 
 end
 function CamaraMode()
@@ -1136,16 +1128,16 @@ function GetPapers2(Frame)
 function ForceCloserDoors2(Frame)
 	while Frame.Text == OnE do wait()
 		for _,t in pairs(workspace:GetDescendants()) do 
-			if t:IsA'ClickDetector' and t.Parent.name == "Close" 
+			if t:IsA'ProximityPrompt' and t.Parent.name == "Close" 
 				and Frame.Text == OnE then 
-				fireclickdetector(t) end end end end 
+				fireproximityprompt(t, 0) end end end end 
 
 function ForceOpenDoors2(Frame)
 	while Frame.Text == OnE do wait()
 		for _,t in pairs(workspace:GetDescendants()) do 
-			if t:IsA'ClickDetector' and t.Parent.name == "Open" 
+			if t:IsA'ProximityPrompt' and t.Parent.name == "Open" 
 				and Frame.Text == OnE then 
-				fireclickdetector(t) end end end end 
+				fireproximityprompt(t, 0) end end end end 
 
 function FullAuto2(Frame)
 	while Frame.Text == OnE do wait(8)
