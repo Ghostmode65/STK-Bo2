@@ -27,7 +27,13 @@ local StarterGui = game:GetService("StarterGui")
 			Font = Enum.Font.SourceSansBold; --Chat message font, defaults to SourceSansBold
 			TextSize = 18 --Text size, defaults to 18
 			})end)
- 
+ 	StarterGui:SetCore("ChatMakeSystemMessage", {
+			Text = 'Code may be backwards!'; --The chat message
+			Color = Color3.fromRGB(0, 160, 0); --Chat message color, defaults to white
+			Font = Enum.Font.SourceSansBold; --Chat message font, defaults to SourceSansBold
+			TextSize = 18 --Text size, defaults to 18
+			})
+			
 for i,v in pairs(workspace.AREA51:GetDescendants()) do 
 		if v.Name == "Decal" and v.parent.parent.Name == "CodeModel" then 
 		    
@@ -49,13 +55,7 @@ if v.Texture == J then Wobble=("9")  end
 			TextSize = 18 --Text size, defaults to 18
 		})
 	end
-StarterGui:SetCore("ChatMakeSystemMessage", {
-			Text = "Code may be backwards"; --The chat message
-			Color = Color3.fromRGB(0, 1, 0); --Chat message color, defaults to white
-			Font = Enum.Font.SourceSansBold; --Chat message font, defaults to SourceSansBold
-			TextSize = 18 --Text size, defaults to 18
-		})
-	end
+end
 
-end 
+
 	
