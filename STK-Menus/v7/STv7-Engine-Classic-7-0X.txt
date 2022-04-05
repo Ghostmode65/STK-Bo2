@@ -1,4 +1,3 @@
-
 --STKv7 Engine
 --By Ghostmode65
 --Classic Gamemode
@@ -9,8 +8,21 @@
 --https://github.com/Ghostmode65/STK-Bo2/blob/master/STK-Menus/v7/STKv7-Engine-Edition-LoadString.txt
 --Enjoy Hacking on this game, & Feel free to share just don't take credit & use the link above
 
---Next update will be more fixes, getcode will get all 3 codes, and more killer nerfs, 
--- if you find something that is broken messege me at https://v3rmillion.net/ Username ghostmode65
+--Next update will be more fixes, and more killer nerfs, 
+-- if you find something that is or still is broken messege me at https://v3rmillion.net/ Username ghostmode65
+
+
+--7.05B
+--Lots of fixs for updates
+--Bring Items such as papers guns and Keycards
+--Tp to Items
+--Get all items 
+--Infinite Jump
+--Camarma Mode
+--Doors, kinda works now ,breaks in looped mode and can no longer use Doors
+--GetCode
+--More Fixes
+
 
 --7.05
 --Fixes couple things for updates
@@ -103,7 +115,7 @@ end
  InfoBar = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=0.9800000190734863,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0.157320887, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 288, 0, 537),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=-1,Name = 'InfoBar',Parent = Engine})
  MenuType = CreateInstance('TextLabel',{Font=Enum.Font.Fondamento,FontSize=Enum.FontSize.Size14,Text='Main Menu',TextColor3=Color3.new(0.670588, 0.670588, 0.670588),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Bottom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0264721978, 0, 0.0274399221, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 84, 0, 19),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='MenuType',Parent = InfoBar})
  GameType = CreateInstance('TextLabel',{Font=Enum.Font.Fondamento,FontSize=Enum.FontSize.Size14,Text='Classic',TextColor3=Color3.new(0.670588, 0.670588, 0.670588),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Right,TextYAlignment=Enum.TextYAlignment.Bottom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.756111145, 0, 0.0274394751, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 64, 0, 19),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='GameType',Parent = InfoBar})
- Verison_E = CreateInstance('TextLabel',{Font=Enum.Font.TitilliumWeb,FontSize=Enum.FontSize.Size24,Text='05         ',TextColor3=Color3.new(0.415686, 0.415686, 0.415686),TextScaled=false,TextSize=24,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0.41999998688697815,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Bottom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.992157, 0.992157, 0.992157),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0610000007, 0, 0.944000006, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 79, 0, 22),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Verison_E',Parent = InfoBar})
+ Verison_E = CreateInstance('TextLabel',{Font=Enum.Font.TitilliumWeb,FontSize=Enum.FontSize.Size24,Text='05B         ',TextColor3=Color3.new(0.415686, 0.415686, 0.415686),TextScaled=false,TextSize=24,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0.41999998688697815,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Bottom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.992157, 0.992157, 0.992157),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0610000007, 0, 0.944000006, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 79, 0, 22),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Verison_E',Parent = InfoBar})
  Guns_Settings = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0418857485, 0, 0.248730406, 0),Rotation=0,Selectable=false,Size=UDim2.new(0.932794273, 0, 0.669549346, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=false,ZIndex=1,Name = 'Guns_Settings',Parent = Engine})
  S_infinite_A_GS = CreateInstance('TextButton',{Font=Enum.Font.Fondamento,FontSize=Enum.FontSize.Size24,Text='Infinite Ammo',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=24,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0.10000000149011612,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0260567162, 0, 0.0140000191, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.949316382, 0, 0.0601745248, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='S_infinite_A_GS',Parent = Guns_Settings})
  S_FullAuto = CreateInstance('TextButton',{Font=Enum.Font.Fondamento,FontSize=Enum.FontSize.Size24,Text='Full Auto',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=24,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0.10000000149011612,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0260567162, 0, 0.0735665932, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.949316382, 0, 0.0601745248, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='S_FullAuto',Parent = Guns_Settings})
@@ -282,7 +294,6 @@ end
  O_Mod2 = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.355506301, 0, 1.00205958, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 85, 0, 17),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='O_Mod2',Parent = Mods})
 
 
---Loadstring Settings
 
 --PreExecute
 --Unicode Generation
@@ -357,19 +368,19 @@ function ClassNameV(V) MenuType.Text = V end
 
 --Functions
 
---BringGuns
 function BringGun(Gunname)
-	--Beta Verison
-	for _,GunGiver in pairs(game:GetService("Workspace").Weapons:GetDescendants()) do 
-		if GunGiver.name == "Hitbox"  then 
-			print(GunGiver.Parent.name) 
-			firetouchinterest(Humanoid,GunGiver, 0) 
+--Beta Verison
+for _,GunGiver in pairs(game:GetService("Workspace").Weapons:GetDescendants()) do 
+		if GunGiver.name == "Hitbox" and GunGiver.Parent.name == Gunname then 
+	print(GunGiver.Parent.name) 
+			firetouchinterest(Player.Character.HumanoidRootPart,GunGiver, 0) 
 		end end end
+
 
 --BringItems
 function BringItem(RoomName)
 	for _,ItemGiver in pairs(workspace.AREA51:GetDescendants()) do 
-		if ItemGiver.name == "PUT THIS IN THE WEAPON" 
+		if ItemGiver.name == "TouchInterest" 
 			and ItemGiver.Parent.Parent.name == RoomName then 
 			print(ItemGiver.Parent.Parent.name) 
 			firetouchinterest(Player.Character.HumanoidRootPart,ItemGiver.Parent, 0) 
@@ -396,16 +407,17 @@ function PlayerTp(x,y,z)
 
 --GunTeleport
 function GunTp(Gunname)
-	for _,GunReciver in pairs(workspace.AREA51:GetDescendants()) do 
-		if GunReciver.name == "PUT THE WEAPON IN THIS BRICK" 
-			and GunReciver.Parent.Parent.name == Gunname then 
-			Player.Character.HumanoidRootPart.CFrame = GunReciver.CFrame * CFrame.new(Vector3.new(1,4,1)) 
+	for _,GunReciver in pairs(game:GetService("Workspace").Weapons:GetDescendants()) do 
+		if GunReciver.name == "Hitbox" 
+			and GunReciver.Parent.name == Gunname then print(GunReciver.Parent.name)
+			Player.Character.HumanoidRootPart.CFrame = GunReciver.CFrame * CFrame.new(Vector3.new(0,0,0)) 
 		end end end  
+
 
 --ItemTeleport
 function ItemTp(RoomName)
 	for _,ItemReciver in pairs(workspace.AREA51:GetDescendants()) do 
-		if ItemReciver.name == "PUT THIS IN THE WEAPON" 
+		if ItemReciver.name == "TouchInterest"
 			and ItemReciver.Parent.Parent.name == RoomName then 
 			Player.Character.HumanoidRootPart.CFrame = ItemReciver.Parent.CFrame * CFrame.new(Vector3.new(1,4,1)) 
 		end end end  
@@ -669,8 +681,8 @@ function SemiInvisble()
 	Char:MoveTo(box.Position + Vector3.new(0,.5,0))end
 
 function GiveAllGuns()
-	for _,GunGiver in pairs(workspace.AREA51:GetDescendants()) do 
-		if GunGiver.name == "PUT THE WEAPON IN THIS BRICK" 
+	for _,GunGiver in pairs(game:GetService("Workspace").Weapons:GetDescendants()) do 
+		if GunGiver.name == "Hitbox" 
 		then firetouchinterest(Player.Character.HumanoidRootPart,GunGiver, 0) end end end
 
 function GiveDeleteTool()
@@ -688,13 +700,13 @@ end
 
 function GetKeyCards()
 	for _,CardGiver in pairs(workspace.AREA51:GetDescendants()) do 
-		if CardGiver.name == "PUT THIS IN THE WEAPON" 
+		if CardGiver.name == "TouchInterest" 
 			and CardGiver.Parent.name == "Card"
 		then firetouchinterest(Player.Character.HumanoidRootPart,CardGiver.Parent, 0) end end end
 
 function GetPapers()
 	for _,PaperGiver in pairs(workspace.AREA51:GetDescendants()) do 
-		if PaperGiver.name == "PUT THIS IN THE WEAPON" 
+		if PaperGiver.name == "TouchInterest"
 			and PaperGiver.Parent.name == "Paper"
 		then firetouchinterest(Player.Character.HumanoidRootPart,PaperGiver.Parent, 0) end end end
 
@@ -720,7 +732,7 @@ function CamaraMode()
 	wait()
 	UserInputService.InputBegan:Connect(function(input, gameProcessed)
 		if input.UserInputType == Enum.UserInputType.Keyboard then
-			local keyPressed = input.Space
+			local keyPressed = 32 --Space
 			Player.Character.HumanoidRootPart.CFrame	= HoldPos    
 			game:GetService("Workspace")["Surveillance Cameras"].Triggers.Seat.CFrame = OldPos
 		end end) end 
@@ -1191,7 +1203,7 @@ function InfiniteJump()
 	Mouse.KeyDown:connect(function(k)
 		if T_Jump_I.text == OnE then
 			if k:byte() == 32 then
-				Player.Character.HumanoidRootPart = game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+				Player.HumanoidRootPart = game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
 				Humanoid:ChangeState("Jumping")
 				wait(0.1)
 				Humanoid:ChangeState("Seated")end end end) end
@@ -1433,6 +1445,7 @@ uis.InputBegan:Connect(function(input)
 		if Engine.Visible == true then Engine.Visible = false else Engine.Visible = true 
 		end end end) 
 
+
 --Buttons
 
 --Gui Buttons
@@ -1525,6 +1538,8 @@ Paper6_B.MouseButton1Down:connect(function()BringItem("ComputingRoom")end)
 Paper7_B.MouseButton1Down:connect(function()BringItem("PrototypMeetingRoom")end)
 Paper8_B.MouseButton1Down:connect(function()BringItem("WasteRoom")end)
 
+
+
 --Teleport To Rooms
 Tp_Spawn.MouseButton1Down:connect(function()PlayerTp(322.9, 511.4, 390.2)end)
 Tp_Kitchen.MouseButton1Down:connect(function()PlayerTp(295, 315.8, 285.5)end)
@@ -1604,7 +1619,7 @@ S_FCD.MouseButton1Down:connect(function()
 S_FOD.MouseButton1Down:connect(function()  
 	ForceOpenDoors(T_FOD) end)  
 S_GetCode.MouseButton1Down:connect(function() 
-	loadstring(game:HttpGetAsync("https://github.com/Ghostmode65/STK-Bo2/blob/master/STK-Menus/Scripts/GetCode.txt"))()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/Scripts/GetCode.txt"))()
 end)
 
 S_CamaraMode.MouseButton1Down:connect(function() CamaraMode() end)
