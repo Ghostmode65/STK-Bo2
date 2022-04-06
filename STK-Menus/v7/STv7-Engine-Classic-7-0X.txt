@@ -1203,7 +1203,7 @@ function InfiniteJump()
 	Mouse.KeyDown:connect(function(k)
 		if T_Jump_I.text == OnE then
 			if k:byte() == 32 then
-				Player.HumanoidRootPart = game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+				Humanoid = game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
 				Humanoid:ChangeState("Jumping")
 				wait(0.1)
 				Humanoid:ChangeState("Seated")end end end) end
