@@ -748,10 +748,11 @@ function CamaraMode()
 		end end) end 
 
 function WheelchairKillers()
+while wait(2) do
 	for i,v in pairs(Workspace.Killers:GetDescendants()) do 
 		if v.name == 'Zombie' and v.parent.parent.name == 'Killers' then 
 			v:destroy()
-		end end end
+		end end end end
 
 function Aimbot(TType,DistanceE) --Settings Here, -- Not mine, just slightly edited
 
