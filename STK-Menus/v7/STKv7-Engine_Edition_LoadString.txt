@@ -8,14 +8,5 @@
 --Loadstring Settings
 BypassGamdeMode=false -- Change to use menu on gamesmodes that are yet supported
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v7/STv7-Engine-Classic-7-0X.txt'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v7/STv7-Engine.txt'))()
 
---7.04
---Newlink to STKv7.0, To Remove conflict issue with 7.1
---Fixed RichText
---GetCode now gets gate code
---Added Mulitply Badges to getBadges
---Add bypass Gamdemode in loadstring settings
---MinorBug Fixes:
---Teleports
---Getguns
