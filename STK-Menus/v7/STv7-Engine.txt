@@ -1,3 +1,9 @@
+--Loadstring Verison AutoUpdates
+--https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v7/STKv7-Engine_Edition_LoadString.txt
+--Enjoy Hacking on this game, & Feel free to share just don't take credit & use the link above
+
+
+-- if you find something that is or still is broken messege me at https://v3rmillion.net/ Username ghostmode65 or https://github.com/Ghostmode65/STK-Bo2/issues
 
 function Loading()
 	print("Checking Requirments") 

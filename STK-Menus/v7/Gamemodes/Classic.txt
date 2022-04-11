@@ -122,7 +122,7 @@ end
  InfoBar = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=0.9800000190734863,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0.157320887, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 288, 0, 537),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=-1,Name = 'InfoBar',Parent = Engine})
  MenuType = CreateInstance('TextLabel',{Font=Enum.Font.Fondamento,FontSize=Enum.FontSize.Size14,Text='Main Menu',TextColor3=Color3.new(0.670588, 0.670588, 0.670588),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Bottom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0264721978, 0, 0.0274399221, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 84, 0, 19),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='MenuType',Parent = InfoBar})
  GameType = CreateInstance('TextLabel',{Font=Enum.Font.Fondamento,FontSize=Enum.FontSize.Size14,Text='Classic',TextColor3=Color3.new(0.670588, 0.670588, 0.670588),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Right,TextYAlignment=Enum.TextYAlignment.Bottom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.756111145, 0, 0.0274394751, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 64, 0, 19),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='GameType',Parent = InfoBar})
- Verison_E = CreateInstance('TextLabel',{Font=Enum.Font.TitilliumWeb,FontSize=Enum.FontSize.Size24,Text='06          ',TextColor3=Color3.new(0.415686, 0.415686, 0.415686),TextScaled=false,TextSize=24,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0.41999998688697815,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Bottom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.992157, 0.992157, 0.992157),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0610000007, 0, 0.944000006, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 79, 0, 22),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Verison_E',Parent = InfoBar})
+ Verison_E = CreateInstance('TextLabel',{Font=Enum.Font.TitilliumWeb,FontSize=Enum.FontSize.Size24,Text='10          ',TextColor3=Color3.new(0.415686, 0.415686, 0.415686),TextScaled=false,TextSize=24,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0.41999998688697815,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Bottom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.992157, 0.992157, 0.992157),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0610000007, 0, 0.944000006, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 79, 0, 22),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='Verison_E',Parent = InfoBar})
  Guns_Settings = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0418857485, 0, 0.248730406, 0),Rotation=0,Selectable=false,Size=UDim2.new(0.932794273, 0, 0.669549346, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=false,ZIndex=1,Name = 'Guns_Settings',Parent = Engine})
  S_infinite_A_GS = CreateInstance('TextButton',{Font=Enum.Font.Fondamento,FontSize=Enum.FontSize.Size24,Text='Infinite Ammo',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=24,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0.10000000149011612,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0260567162, 0, 0.0140000191, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.949316382, 0, 0.0601745248, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='S_infinite_A_GS',Parent = Guns_Settings})
  S_FullAuto = CreateInstance('TextButton',{Font=Enum.Font.Fondamento,FontSize=Enum.FontSize.Size24,Text='Full Auto',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=24,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0.10000000149011612,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0260567162, 0, 0.0735665932, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.949316382, 0, 0.0601745248, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='S_FullAuto',Parent = Guns_Settings})
@@ -317,23 +317,6 @@ for i,v in pairs(STKv7_Engine_Edtion:GetDescendants()) do
 
 
 
-function Loading()
-	print("Checking Requirments") 
-end 
-
-if BypassGamdeMode==false then
-
-	if game.PlaceId == 2092166489 then
-		Loading() print("Classic Mode Loaded")
-	elseif  game.PlaceId == 5740483929 then 
-		Loading() print("Classic Hard Mode Loaded")
-	elseif game.PlaceId == 3182083477 then 
-		Loading() print("Classic Extreme Mode Loaded")else 
-		game.Players.LocalPlayer:Kick("Wrong Gamemode")
-		wait(1) firetouchinterest(Player.Character,game:GetService("Workspace").PACKAPUNCH.GUI, 0) 
-
-	end end
-
 --Notfiy
 function Notify(NT, NTT)
 	game.StarterGui:SetCore('SendNotification', {
@@ -343,9 +326,7 @@ Notify('Gui Loaded', 'Beginning To Load Scripts ')
 if not isfolder('QuickMods') then makefolder('QuickMods') Notify('Folder Not Found', 'Beginning To Make Folder ')
 	writefile('QuickMods/GunState',"Gunstates failed to save") end
 
---AnitCheat
-for i,v in pairs(workspace:GetDescendants()) do 
-	if v.name == "AntiOoB" then v:Destroy() end end 
+
 
 --Libary
 Player = game.Players.LocalPlayer   
@@ -1722,5 +1703,8 @@ TSFireRateBA.MouseButton1Down:connect(function()
 		firerate(TSFirerate_Label)
 	end end)
 
-
+--AnitCheat
+while wait(10) do
+for i,v in pairs(workspace:GetDescendants()) do 
+	if v.name == "AntiOoB" then v:Destroy() end end end
 

@@ -1,12 +1,15 @@
 --STKv7 Engine
 --By Ghostmode65
---Classic Gamemode
 
---Other gamemodes will be coming out after I fix a couple things
---Loadstring Verison AutoUpdates
 
 --Loadstring Settings
 BypassGamdeMode=false -- Change to use menu on gamesmodes that are yet supported
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v7/STv7-Engine.txt'))()
 
+--Loadstring Verison AutoUpdates
+--https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v7/STKv7-Engine_Edition_LoadString.txt
+--Enjoy Hacking on this game, & Feel free to share just don't take credit & use the link above
+
+
+-- Ff you find something that is or still is broken messege me at https://v3rmillion.net/ Username ghostmode65 or https://github.com/Ghostmode65/STK-Bo2/issues
