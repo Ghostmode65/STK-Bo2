@@ -907,7 +907,7 @@ function EspKillers(Frame)
 				v:FindFirstChild("Killer Esp")==nil and 
 				Frame.Text == OnE and 
 				v.Parent.Parent.Name == "Killers" then    
-				print(v.Parent.Name,c.Parent.Parent.name,"Found")
+				print(v.Parent.Name,"Found")
 				esp.Text = v.Parent.Name
 				gui:Clone().Parent = v 
 			end end end 
