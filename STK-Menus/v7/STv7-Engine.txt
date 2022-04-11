@@ -27,6 +27,9 @@ Loading() JugGM() print("Juggernaut Mode Loaded")
 
 else game.Players.LocalPlayer:Kick("Wrong Gamemode")
 	wait(1) firetouchinterest(Player.Character,game:GetService("Workspace").PACKAPUNCH.GUI, 0) 
-
-
 end end
+
+--AnitCheat
+while wait(10) do
+	for i,v in pairs(workspace:GetDescendants()) do 
+		if v.name == "AntiOoB" then v:Destroy() end end end

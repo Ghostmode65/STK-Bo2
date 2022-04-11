@@ -1703,8 +1703,5 @@ TSFireRateBA.MouseButton1Down:connect(function()
 		firerate(TSFirerate_Label)
 	end end)
 
---AnitCheat
-while wait(10) do
-for i,v in pairs(workspace:GetDescendants()) do 
-	if v.name == "AntiOoB" then v:Destroy() end end end
+
 
