@@ -7,21 +7,21 @@
 
 function Loading()
 	print("Checking Requirments") end 
-function ClassicGM()
+function LoadClassic()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v7/Gamemodes/Classic.txt'))() end
 
-function JugGM()
+function LoadJuggernuat()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v7/Gamemodes/Juggernuat.txt'))() end
 
 if BypassGamdeMode==false then
  if game.PlaceId == 2092166489 then
-	Loading() ClassicGM() print("Classic Mode Loaded") 
+	Loading() LoadClassic() print("Classic Mode Loaded") 
 elseif  game.PlaceId == 5740483929 then 
-	Loading() ClassicGM() print("Classic Hard Mode Loaded") 
+	Loading() LoadClassic() print("Classic Hard Mode Loaded") 
 elseif game.PlaceId == 3182083477 then 
-	Loading() ClassicGM() print("Classic Extreme Mode Loaded") 
+	Loading() LoadClassic() print("Classic Extreme Mode Loaded") 
 elseif game.PlaceId == 4678052190 then
-Loading() JugGM() print("Juggernaut Mode Loaded") 
+Loading() LoadJuggernuat() print("Juggernaut Mode Loaded") 
 else game.Players.LocalPlayer:Kick("Wrong Gamemode")
 	wait(1) firetouchinterest(Player.Character,game:GetService("Workspace").PACKAPUNCH.GUI, 0) 
 end end
@@ -29,9 +29,9 @@ end end
 
 
 if BypassGamdeMode==true then 
-    if Gamemode==defult then print('No gamemode selected')
-elseif Gamemode==Juggernuat then JugGM() 
-    elseif Gamemode==Classic then ClassicGM()
+ if LoadJuggernuat==true then LoadJuggernuat()
+ elseif LoadClassic==true then LoadClassic() 
+  else print('No gamemode selected')
     end end
 
 --AnitCheat
