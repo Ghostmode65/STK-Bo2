@@ -29,9 +29,9 @@ end end
 
 
 if BypassGamdeMode==true then 
-    if Gamemode=='defult' then print('No gamemode selected')
-elseif Gamemode=='Juggernuat' then JugGM() 
-    elseif Gamemode=='Classic' then ClassicGM()
+    if Gamemode==defult then print('No gamemode selected')
+elseif Gamemode==Juggernuat then JugGM() 
+    elseif Gamemode==Classic then ClassicGM()
     end end
 
 --AnitCheat
