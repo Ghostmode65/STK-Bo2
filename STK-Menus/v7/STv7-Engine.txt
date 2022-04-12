@@ -26,14 +26,8 @@ else game.Players.LocalPlayer:Kick("Wrong Gamemode")
 	wait(1) firetouchinterest(Player.Character,game:GetService("Workspace").PACKAPUNCH.GUI, 0) 
 end end
 
+if BypassGamdeMode==true then LoadClassic() end
 
-
-if BypassGamdeMode==true then 
- if LoadJuggernuat==true then LoadJuggernuat()
- if LoadClassic==true then LoadClassic() 
-     if LoadClassic==false and LoadJuggernuat==false then print('No gamemode selected')
-    end end end end
-  
 
 --AnitCheat
 while wait(10) do
