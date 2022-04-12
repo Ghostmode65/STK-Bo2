@@ -6,8 +6,7 @@
 -- if you find something that is or still is broken messege me at https://v3rmillion.net/ Username ghostmode65 or https://github.com/Ghostmode65/STK-Bo2/issues
 
 function Loading()
-	print("Checking Requirments") 
-end 
+	print("Checking Requirments") end 
 function ClassicGM()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v7/Gamemodes/Classic.txt'))() end
 
@@ -15,7 +14,6 @@ function JugGM()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v7/Gamemodes/Juggernuat.txt'))() end
 
 if BypassGamdeMode==false then
-
  if game.PlaceId == 2092166489 then
 	Loading() ClassicGM() print("Classic Mode Loaded") 
 elseif  game.PlaceId == 5740483929 then 
@@ -31,15 +29,10 @@ end end
 
 
 if BypassGamdeMode==true then 
-    if game.PlaceId == 2092166489 then
-	Loading() ClassicGM() print("Classic Mode Loaded") 
-elseif  game.PlaceId == 5740483929 then 
-	Loading() ClassicGM() print("Classic Hard Mode Loaded") 
-elseif game.PlaceId == 3182083477 then 
-	Loading() ClassicGM() print("Classic Extreme Mode Loaded") 
-elseif game.PlaceId == 4678052190 then
-Loading() JugGM() print("Juggernaut Mode Loaded") else JugGM()
-    end end 
+    if Gamemode==defult then print('No gamemode selected')
+elseif Gamemode==Juggernuat then JugGM() 
+    elseif Gamemode==Classic then ClassicGM()
+    end end
 
 --AnitCheat
 while wait(10) do

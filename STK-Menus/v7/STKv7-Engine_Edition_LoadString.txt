@@ -4,6 +4,10 @@
 
 --Loadstring Settings
 BypassGamdeMode=false -- Change to use menu on gamesmodes that are yet supported
+Gamemode=defult -- Use if BypassGamdeMode=true
+--Types of menu's to load
+--Classic
+--Juggernuat
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v7/STv7-Engine.txt'))()
 
@@ -12,4 +16,4 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/m
 --Enjoy Hacking on this game, & Feel free to share just don't take credit & use the link above
 
 
--- Ff you find something that is or still is broken messege me at https://v3rmillion.net/ Username ghostmode65 or https://github.com/Ghostmode65/STK-Bo2/issues
+-- If you find something that is or still is broken messege me at https://v3rmillion.net/ Username ghostmode65 or https://github.com/Ghostmode65/STK-Bo2/issues
