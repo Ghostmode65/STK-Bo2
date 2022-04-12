@@ -30,9 +30,10 @@ end end
 
 if BypassGamdeMode==true then 
  if LoadJuggernuat==true then LoadJuggernuat()
- elseif LoadClassic==true then LoadClassic() 
-  else print('No gamemode selected')
-    end end
+ if LoadClassic==true then LoadClassic() 
+     if LoadClassic==false and LoadJuggernuat==false then print('No gamemode selected')
+    end end end end
+  
 
 --AnitCheat
 while wait(10) do
