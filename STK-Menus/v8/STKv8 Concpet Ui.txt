@@ -1,5 +1,221 @@
-RtOn = 'httpwww.roblox.comassetid=10423197881'
-RtOff = 'httpwww.roblox.comassetid=10423198341'
+STKv8 Scarlet
+
+local LoadGui = Instance.new("ScreenGui")
+local MuiBP = Instance.new("ImageLabel")
+local RedTags = Instance.new("Folder")
+local RT_Noclip = Instance.new("ImageLabel")
+local RT_InfiniteJump = Instance.new("ImageLabel")
+local RT_Fly = Instance.new("ImageLabel")
+local RT = Instance.new("ImageLabel")
+local RT_2 = Instance.new("ImageLabel")
+local RT_3 = Instance.new("ImageLabel")
+local RT_4 = Instance.new("ImageLabel")
+local LocalPlayerButtons = Instance.new("Folder")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local B_ClickTP = Instance.new("TextButton")
+local B_InfiniteJump = Instance.new("TextButton")
+local B_Noclip = Instance.new("TextButton")
+local B_Fly = Instance.new("TextButton")
+local UiButtons = Instance.new("Folder")
+local Infogram = Instance.new("TextButton")
+local Reopen = Instance.new("ImageButton")
+
+--Properties:
+
+LoadGui.Name = "LoadGui"
+LoadGui.Parent = game.CoreGui
+LoadGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MuiBP.Name = "MuiBP"
+MuiBP.Parent = LoadGui
+MuiBP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MuiBP.BackgroundTransparency = 1.000
+MuiBP.Position = UDim2.new(0.108980827, 0, -0.0517666377, 0)
+MuiBP.Size = UDim2.new(0.800706387, 0, 0.93672967, 0)
+MuiBP.Visible = false
+MuiBP.Image = "rbxassetid://10422602159"
+
+RedTags.Name = "RedTags"
+RedTags.Parent = MuiBP
+
+RT_Noclip.Name = "RT_Noclip"
+RT_Noclip.Parent = RedTags
+RT_Noclip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RT_Noclip.BackgroundTransparency = 1.000
+RT_Noclip.Position = UDim2.new(0.333055615, 0, 0.344000012, 0)
+RT_Noclip.Size = UDim2.new(0.0668776631, 0, 0.0536594391, 0)
+RT_Noclip.Image = "http://www.roblox.com/asset/?id=10423198341"
+
+RT_InfiniteJump.Name = "RT_InfiniteJump"
+RT_InfiniteJump.Parent = RedTags
+RT_InfiniteJump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RT_InfiniteJump.BackgroundTransparency = 1.000
+RT_InfiniteJump.Position = UDim2.new(0.499166727, 0, 0.344000012, 0)
+RT_InfiniteJump.Size = UDim2.new(0.0668776631, 0, 0.0536594391, 0)
+RT_InfiniteJump.Image = "http://www.roblox.com/asset/?id=10423198341"
+
+RT_Fly.Name = "RT_Fly"
+RT_Fly.Parent = RedTags
+RT_Fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RT_Fly.BackgroundTransparency = 1.000
+RT_Fly.Position = UDim2.new(0.25, 0, 0.344000012, 0)
+RT_Fly.Size = UDim2.new(0.0668776631, 0, 0.0536594391, 0)
+RT_Fly.Image = "http://www.roblox.com/asset/?id=10423198341"
+
+RT.Name = "RT"
+RT.Parent = RedTags
+RT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RT.BackgroundTransparency = 1.000
+RT.Position = UDim2.new(0.416111171, 0, 0.344000012, 0)
+RT.Size = UDim2.new(0.0668776631, 0, 0.0536594391, 0)
+RT.Image = "http://www.roblox.com/asset/?id=10423198341"
+
+RT_2.Name = "RT"
+RT_2.Parent = RedTags
+RT_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RT_2.BackgroundTransparency = 1.000
+RT_2.Position = UDim2.new(0.665277898, 0, 0.344000012, 0)
+RT_2.Size = UDim2.new(0.0668776631, 0, 0.0536594391, 0)
+RT_2.Image = "http://www.roblox.com/asset/?id=10423198341"
+
+RT_3.Name = "RT"
+RT_3.Parent = RedTags
+RT_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RT_3.BackgroundTransparency = 1.000
+RT_3.Position = UDim2.new(0.582222342, 0, 0.344000012, 0)
+RT_3.Size = UDim2.new(0.0668776631, 0, 0.0536594391, 0)
+RT_3.Image = "http://www.roblox.com/asset/?id=10423198341"
+
+RT_4.Name = "RT"
+RT_4.Parent = RedTags
+RT_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RT_4.BackgroundTransparency = 1.000
+RT_4.Position = UDim2.new(0.748333454, 0, 0.344000012, 0)
+RT_4.Size = UDim2.new(0.0668776631, 0, 0.0536594391, 0)
+RT_4.Image = "http://www.roblox.com/asset/?id=10423198341"
+
+LocalPlayerButtons.Name = "LocalPlayerButtons"
+LocalPlayerButtons.Parent = MuiBP
+
+TextButton.Parent = LocalPlayerButtons
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.752121031, 0, 0.34751907, 0)
+TextButton.Size = UDim2.new(0.0623818524, 0, 0.0438596494, 0)
+TextButton.Font = Enum.Font.Bodoni
+TextButton.Text = "?"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextButton_2.Parent = LocalPlayerButtons
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.Position = UDim2.new(0.668315053, 0, 0.34751907, 0)
+TextButton_2.Size = UDim2.new(0.0623818524, 0, 0.0438596494, 0)
+TextButton_2.Font = Enum.Font.Bodoni
+TextButton_2.Text = "?"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+TextButton_3.Parent = LocalPlayerButtons
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.Position = UDim2.new(0.583879054, 0, 0.348396271, 0)
+TextButton_3.Size = UDim2.new(0.0623818524, 0, 0.0438596494, 0)
+TextButton_3.Font = Enum.Font.Bodoni
+TextButton_3.Text = "?"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+B_ClickTP.Name = "B_ClickTP"
+B_ClickTP.Parent = LocalPlayerButtons
+B_ClickTP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+B_ClickTP.BackgroundTransparency = 1.000
+B_ClickTP.Position = UDim2.new(0.417527407, 0, 0.34751907, 0)
+B_ClickTP.Size = UDim2.new(0.0623818524, 0, 0.0438596494, 0)
+B_ClickTP.Font = Enum.Font.Bodoni
+B_ClickTP.Text = "Click Teleport"
+B_ClickTP.TextColor3 = Color3.fromRGB(0, 0, 0)
+B_ClickTP.TextScaled = true
+B_ClickTP.TextSize = 14.000
+B_ClickTP.TextWrapped = true
+
+B_InfiniteJump.Name = "B_InfiniteJump"
+B_InfiniteJump.Parent = LocalPlayerButtons
+B_InfiniteJump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+B_InfiniteJump.BackgroundTransparency = 1.000
+B_InfiniteJump.Position = UDim2.new(0.501963496, 0, 0.34751907, 0)
+B_InfiniteJump.Size = UDim2.new(0.0623818524, 0, 0.0438596494, 0)
+B_InfiniteJump.Font = Enum.Font.Bodoni
+B_InfiniteJump.Text = "Infinite Jump"
+B_InfiniteJump.TextColor3 = Color3.fromRGB(0, 0, 0)
+B_InfiniteJump.TextScaled = true
+B_InfiniteJump.TextSize = 14.000
+B_InfiniteJump.TextWrapped = true
+
+B_Noclip.Name = "B_Noclip"
+B_Noclip.Parent = LocalPlayerButtons
+B_Noclip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+B_Noclip.BackgroundTransparency = 1.000
+B_Noclip.Position = UDim2.new(0.33498174, 0, 0.34751907, 0)
+B_Noclip.Size = UDim2.new(0.0623818524, 0, 0.0438596494, 0)
+B_Noclip.Font = Enum.Font.Bodoni
+B_Noclip.Text = "Noclip"
+B_Noclip.TextColor3 = Color3.fromRGB(0, 0, 0)
+B_Noclip.TextScaled = true
+B_Noclip.TextSize = 14.000
+B_Noclip.TextWrapped = true
+
+B_Fly.Name = "B_Fly"
+B_Fly.Parent = LocalPlayerButtons
+B_Fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+B_Fly.BackgroundTransparency = 1.000
+B_Fly.Position = UDim2.new(0.251175851, 0, 0.348396271, 0)
+B_Fly.Size = UDim2.new(0.0623818524, 0, 0.0438596494, 0)
+B_Fly.Font = Enum.Font.Bodoni
+B_Fly.Text = "Fly"
+B_Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+B_Fly.TextScaled = true
+B_Fly.TextSize = 14.000
+B_Fly.TextWrapped = true
+
+UiButtons.Name = "UiButtons"
+UiButtons.Parent = MuiBP
+
+Infogram.Name = "Infogram"
+Infogram.Parent = UiButtons
+Infogram.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Infogram.BackgroundTransparency = 1.000
+Infogram.Position = UDim2.new(0.389171988, 0, 0.17383486, 0)
+Infogram.Size = UDim2.new(0.289224952, 0, 0.0438596494, 0)
+Infogram.Font = Enum.Font.Bodoni
+Infogram.Text = "LocalPlayer"
+Infogram.TextColor3 = Color3.fromRGB(0, 0, 0)
+Infogram.TextScaled = true
+Infogram.TextSize = 14.000
+Infogram.TextStrokeColor3 = Color3.fromRGB(218, 84, 255)
+Infogram.TextStrokeTransparency = 0.480
+Infogram.TextWrapped = true
+
+Reopen.Name = "Reopen"
+Reopen.Parent = LoadGui
+Reopen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Reopen.BackgroundTransparency = 1.000
+Reopen.Position = UDim2.new(0.0272452068, 0, 0.397699267, 0)
+Reopen.Size = UDim2.new(0.0555150062, 0, 0.0887428224, 0)
+Reopen.Image = "rbxassetid://2564645667"
+Reopen.ImageColor3 = Color3.fromRGB(231, 30, 245)
+
+RtOn = 'http://www.roblox.com/asset/?id=10423197881'
+RtOff = 'http://www.roblox.com/asset/?id=10423198341'
 
 
 function RtToggle(RedTagType) if RedTagType.Image == RtOn
@@ -9,42 +225,42 @@ function RtToggle(RedTagType) if RedTagType.Image == RtOn
 
 ------Tags
 
---Player
+--Player:
 player = game.Players.LocalPlayer
 character = player.Character
 
---Ui
-uis = gameGetService(UserInputService)
+--Ui:
+uis = game:GetService("UserInputService")
 
 
 --Functions
 function noclipL()
-	local noclip = true
-	local mouse = playerGetMouse()
-	while RT_Noclip.Image == RtOn do
-		player = game.Players.LocalPlayer
-		character = player.Character
-		if noclip then
-			for _, v in pairs(characterGetDescendants()) do
-				pcall(function()
-					if vIsA(BasePart) then
-						v.CanCollide = false
-					end end) end end
-		gameGetService(RunService).Steppedwait() end end
+local noclip = true
+local mouse = player:GetMouse()
+while RT_Noclip.Image == RtOn do
+player = game.Players.LocalPlayer
+character = player.Character
+if noclip then
+for _, v in pairs(character:GetDescendants()) do
+pcall(function()
+if v:IsA("BasePart") then
+v.CanCollide = false
+end end) end end
+game:GetService("RunService").Stepped:wait() end end
 
 
 function InfiniteJump()
-	gameGetService(UserInputService).JumpRequestconnect(function()
-		if  RT_InfiniteJump.Image == RtOn then
-			gameGetServicePlayers.LocalPlayer.CharacterFindFirstChildOfClass'Humanoid'ChangeState(Jumping)
-		end end) end
+game:GetService("UserInputService").JumpRequest:connect(function()
+if  RT_InfiniteJump.Image == RtOn then
+game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+end end) end
 
 function TeleportTool()
-	mouse = game.Players.LocalPlayerGetMouse()
-	tool = Instance.new(Tool)
+	mouse = game.Players.LocalPlayer:GetMouse()
+	tool = Instance.new("Tool")
 	tool.RequiresHandle = false
-	tool.Name = Tp Tool
-	tool.Activatedconnect(function()
+	tool.Name = "Tp Tool"
+	tool.Activated:connect(function()
 		local pos = mouse.Hit+Vector3.new(0,2.5,0)
 		pos = CFrame.new(pos.X,pos.Y,pos.Z)
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
@@ -53,8 +269,8 @@ function TeleportTool()
 
 function Birdy()
 	repeat wait()
-	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.CharacterfindFirstChild(Torso) and game.Players.LocalPlayer.CharacterfindFirstChild(Humanoid)
-	local mouse = game.Players.LocalPlayerGetMouse()
+	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Torso") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid")
+	local mouse = game.Players.LocalPlayer:GetMouse()
 	repeat wait() until mouse
 	local plr = game.Players.LocalPlayer
 	local torso = plr.Character.Torso
@@ -66,66 +282,68 @@ function Birdy()
 	local speed = 0
 
 	function Fly()
-		local bg = Instance.new(BodyGyro, torso)
+		local bg = Instance.new("BodyGyro", torso)
 		bg.P = 9e4
 		bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
 		bg.cframe = torso.CFrame
-		local bv = Instance.new(BodyVelocity, torso)
+		local bv = Instance.new("BodyVelocity", torso)
 		bv.velocity = Vector3.new(0,0.1,0)
 		bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
 		repeat wait()
 			plr.Character.Humanoid.PlatformStand = true
 			if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
-				speed = speed+.5+(speedmaxspeed)
-				if speed  maxspeed then
+				speed = speed+.5+(speed/maxspeed)
+				if speed > maxspeed then
 					speed = maxspeed
 				end
 			elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
 				speed = speed-1
-				if speed  0 then
+				if speed < 0 then
 					speed = 0
 				end
 			end
 			if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
-				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector  (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame  CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b).2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))speed
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
 				lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
 			elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
-				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector  (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame  CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b).2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))speed
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
 			else
 				bv.velocity = Vector3.new(0,0.1,0)
 			end
-			bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame  CFrame.Angles(-math.rad((ctrl.f+ctrl.b)50speedmaxspeed),0,0)
+			bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
 		until not flying
 		ctrl = {f = 0, b = 0, l = 0, r = 0}
 		lastctrl = {f = 0, b = 0, l = 0, r = 0}
 		speed = 0
-		bgDestroy()
-		bvDestroy()
+		bg:Destroy()
+		bv:Destroy()
 		plr.Character.Humanoid.PlatformStand = false
 	end
-	mouse.KeyDownconnect(function(key)
-		if RT_Fly.Image == RtOff then
+	mouse.KeyDown:connect(function(key)
+		if key:lower() == "" and RT_Fly.Image == RtOff then
 			if flying then flying = false
-
+			else
+				flying = true
+				Fly()
 			end
-		elseif keylower() == w then
+		elseif key:lower() == "w" then
 			ctrl.f = 1
-		elseif keylower() == s then
+		elseif key:lower() == "s" then
 			ctrl.b = -1
-		elseif keylower() == a then
+		elseif key:lower() == "a" then
 			ctrl.l = -1
-		elseif keylower() == d then
+		elseif key:lower() == "d" then
 			ctrl.r = 1
 		end
 	end)
-	mouse.KeyUpconnect(function(key)
-		if keylower() == w then
+	mouse.KeyUp:connect(function(key)
+		if key:lower() == "w" then
 			ctrl.f = 0
-		elseif keylower() == s then
+		elseif key:lower() == "s" then
 			ctrl.b = 0
-		elseif keylower() == a then
+		elseif key:lower() == "a" then
 			ctrl.l = 0
-		elseif keylower() == d then
+		elseif key:lower() == "d" then
 			ctrl.r = 0
 		end
 	end)
@@ -134,20 +352,20 @@ function Birdy()
 
 --Buttons
 
---Localplayer
-B_Noclip.MouseButton1Downconnect(function() RtToggle(RT_Noclip) wait(.001) noclipL()end)
-B_InfiniteJump.MouseButton1Downconnect(function() RtToggle(RT_InfiniteJump) wait(.001) InfiniteJump()end)
-B_ClickTP.MouseButton1Downconnect(function() TeleportTool() end)
-B_Fly.MouseButton1Downconnect(function()  RtToggle(RT_Fly) wait(.001) Birdy() end)
+--Localplayer:
+B_Noclip.MouseButton1Down:connect(function() RtToggle(RT_Noclip) wait(.001) noclipL()end)
+B_InfiniteJump.MouseButton1Down:connect(function() RtToggle(RT_InfiniteJump) wait(.001) InfiniteJump()end)
+B_ClickTP.MouseButton1Down:connect(function() TeleportTool() end)
+B_Fly.MouseButton1Down:connect(function()  RtToggle(RT_Fly) wait(.001) Birdy() end)
 -----Ui Command Keys
 
 --Pc Close
-uis.InputBeganConnect(function(input)
-	if uisIsKeyDown(Enum.KeyCode.BackSlash) then
+uis.InputBegan:Connect(function(input)
+	if uis:IsKeyDown(Enum.KeyCode.BackSlash) then
 		if MuiBP.Visible == true then MuiBP.Visible = false else MuiBP.Visible = true 
 		end end end) 
 
 --Mobile Close
-Infogram.MouseButton1Downconnect(function() Reopen.Visible = true MuiBP.Visible = false end)
+Infogram.MouseButton1Down:connect(function() Reopen.Visible = true MuiBP.Visible = false end)
 
-Reopen.MouseButton1Downconnect(function()  MuiBP.Visible = true  Reopen.Visible = false end)
+Reopen.MouseButton1Down:connect(function()  MuiBP.Visible = true  Reopen.Visible = false end)

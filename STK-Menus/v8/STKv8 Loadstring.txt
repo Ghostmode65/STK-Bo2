@@ -1,0 +1,4 @@
+
+
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/STKv8%20Concpet%20Ui.txt'))()
