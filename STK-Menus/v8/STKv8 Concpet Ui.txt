@@ -1,0 +1,153 @@
+RtOn = 'httpwww.roblox.comassetid=10423197881'
+RtOff = 'httpwww.roblox.comassetid=10423198341'
+
+
+function RtToggle(RedTagType) if RedTagType.Image == RtOn
+	then RedTagType.Image = RtOff  else RedTagType.Image = RtOn end end 
+
+
+
+------Tags
+
+--Player
+player = game.Players.LocalPlayer
+character = player.Character
+
+--Ui
+uis = gameGetService(UserInputService)
+
+
+--Functions
+function noclipL()
+	local noclip = true
+	local mouse = playerGetMouse()
+	while RT_Noclip.Image == RtOn do
+		player = game.Players.LocalPlayer
+		character = player.Character
+		if noclip then
+			for _, v in pairs(characterGetDescendants()) do
+				pcall(function()
+					if vIsA(BasePart) then
+						v.CanCollide = false
+					end end) end end
+		gameGetService(RunService).Steppedwait() end end
+
+
+function InfiniteJump()
+	gameGetService(UserInputService).JumpRequestconnect(function()
+		if  RT_InfiniteJump.Image == RtOn then
+			gameGetServicePlayers.LocalPlayer.CharacterFindFirstChildOfClass'Humanoid'ChangeState(Jumping)
+		end end) end
+
+function TeleportTool()
+	mouse = game.Players.LocalPlayerGetMouse()
+	tool = Instance.new(Tool)
+	tool.RequiresHandle = false
+	tool.Name = Tp Tool
+	tool.Activatedconnect(function()
+		local pos = mouse.Hit+Vector3.new(0,2.5,0)
+		pos = CFrame.new(pos.X,pos.Y,pos.Z)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+	end)tool.Parent = game.Players.LocalPlayer.Backpack end
+
+
+function Birdy()
+	repeat wait()
+	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.CharacterfindFirstChild(Torso) and game.Players.LocalPlayer.CharacterfindFirstChild(Humanoid)
+	local mouse = game.Players.LocalPlayerGetMouse()
+	repeat wait() until mouse
+	local plr = game.Players.LocalPlayer
+	local torso = plr.Character.Torso
+	local flying = true
+	local deb = true
+	local ctrl = {f = 0, b = 0, l = 0, r = 0}
+	local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+	local maxspeed = 50
+	local speed = 0
+
+	function Fly()
+		local bg = Instance.new(BodyGyro, torso)
+		bg.P = 9e4
+		bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+		bg.cframe = torso.CFrame
+		local bv = Instance.new(BodyVelocity, torso)
+		bv.velocity = Vector3.new(0,0.1,0)
+		bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+		repeat wait()
+			plr.Character.Humanoid.PlatformStand = true
+			if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+				speed = speed+.5+(speedmaxspeed)
+				if speed  maxspeed then
+					speed = maxspeed
+				end
+			elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+				speed = speed-1
+				if speed  0 then
+					speed = 0
+				end
+			end
+			if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector  (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame  CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b).2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))speed
+				lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+			elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector  (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame  CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b).2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))speed
+			else
+				bv.velocity = Vector3.new(0,0.1,0)
+			end
+			bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame  CFrame.Angles(-math.rad((ctrl.f+ctrl.b)50speedmaxspeed),0,0)
+		until not flying
+		ctrl = {f = 0, b = 0, l = 0, r = 0}
+		lastctrl = {f = 0, b = 0, l = 0, r = 0}
+		speed = 0
+		bgDestroy()
+		bvDestroy()
+		plr.Character.Humanoid.PlatformStand = false
+	end
+	mouse.KeyDownconnect(function(key)
+		if RT_Fly.Image == RtOff then
+			if flying then flying = false
+
+			end
+		elseif keylower() == w then
+			ctrl.f = 1
+		elseif keylower() == s then
+			ctrl.b = -1
+		elseif keylower() == a then
+			ctrl.l = -1
+		elseif keylower() == d then
+			ctrl.r = 1
+		end
+	end)
+	mouse.KeyUpconnect(function(key)
+		if keylower() == w then
+			ctrl.f = 0
+		elseif keylower() == s then
+			ctrl.b = 0
+		elseif keylower() == a then
+			ctrl.l = 0
+		elseif keylower() == d then
+			ctrl.r = 0
+		end
+	end)
+	Fly() end
+
+
+--Buttons
+
+--Localplayer
+B_Noclip.MouseButton1Downconnect(function() RtToggle(RT_Noclip) wait(.001) noclipL()end)
+B_InfiniteJump.MouseButton1Downconnect(function() RtToggle(RT_InfiniteJump) wait(.001) InfiniteJump()end)
+B_ClickTP.MouseButton1Downconnect(function() TeleportTool() end)
+B_Fly.MouseButton1Downconnect(function()  RtToggle(RT_Fly) wait(.001) Birdy() end)
+-----Ui Command Keys
+
+--Pc Close
+uis.InputBeganConnect(function(input)
+	if uisIsKeyDown(Enum.KeyCode.BackSlash) then
+		if MuiBP.Visible == true then MuiBP.Visible = false else MuiBP.Visible = true 
+		end end end) 
+
+--Mobile Close
+Infogram.MouseButton1Downconnect(function() Reopen.Visible = true MuiBP.Visible = false end)
+
+Reopen.MouseButton1Downconnect(function()  MuiBP.Visible = true  Reopen.Visible = false end)
