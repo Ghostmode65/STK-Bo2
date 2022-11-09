@@ -1,6 +1,8 @@
 --STKv8
 --Alpha Test 3 
---real menu will look and be alot better
+--Not the real menu, this was just a scrapped concept
+
+--For Survive and Kill the Killers in Area 51
 
 
 --Generated with Syntax's Converter, comet hub in the works! pastebin search coming soooon REEEEEEE.
