@@ -1,0 +1,9 @@
+
+--STKv8 
+--Alpha Test 3 
+--Not the real menu, this was just a scrapped concept
+
+--For Survive and Kill the Killers in Area 51
+
+--QuickL=false
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Alpha%202/STKv8%20A3.txt'))()
