@@ -1,0 +1,398 @@
+--Generated with Syntax's Converter, comet hub in the works! pastebin search coming soooon REEEEEEE.
+--Counted 30 (objects this time!!!)
+local function CreateInstance(cls,props)
+local inst = Instance.new(cls)
+for i,v in pairs(props) do
+	inst[i] = v
+end
+return inst
+end
+	
+local STKv8S = CreateInstance('ScreenGui',{DisplayOrder=0,Enabled=true,ResetOnSpawn=true,Name='STKv8S', Parent=game.CoreGui})
+local LocalPlayerMenu = CreateInstance('ImageLabel',{Image='rbxassetid://11432577530',ImageColor3=Color3.new(1, 1, 1),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0.4000000059604645,ScaleType=Enum.ScaleType.Fit,SliceCenter=Rect.new(0, 0, 0, 0),Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0590203553, 0, -0.0199098736, 0),Rotation=0,Selectable=false,Size=UDim2.new(0.926151276, 0, 1.03733218, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='LocalPlayerMenu',Parent = STKv8S})
+local VersionNumber = CreateInstance('TextLabel',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size14,Text='AD v3',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(-0.000209195539, 0, 0.892003536, 0),Rotation=0,Selectable=false,Size=UDim2.new(0.0925699994, 0, 0.0301974323, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='VersionNumber',Parent = LocalPlayerMenu})
+local PageType = CreateInstance('TextLabel',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size14,Text='LocalPlayer Scripts',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0.38999998569488525,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.514973998, 0, 0.281800359, 0),Rotation=0,Selectable=false,Size=UDim2.new(0.4140625, 0, 0.0414141752, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='PageType',Parent = LocalPlayerMenu})
+local MenuVToggle = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.95677036, 0, 0.862037241, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 79, 0, 72),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='MenuVToggle',Parent = LocalPlayerMenu})
+local HotTogles = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.013020833, 0, 0.210371822, 0),Rotation=0,Selectable=false,Size=UDim2.new(0.395182282, 0, 0.651663423, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'HotTogles',Parent = LocalPlayerMenu})
+local HS_2 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size36,Text='',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=35,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.511675417, 0, 0.088511765, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.375617772, 0, 0.128198728, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='HS_2',Parent = HotTogles})
+local HS_6 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size36,Text='',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=35,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.514284313, 0, 0.505906701, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.375617772, 0, 0.128198728, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='HS_6',Parent = HotTogles})
+local HS_8 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size36,Text='',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=35,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.514284313, 0, 0.714542925, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.375617772, 0, 0.128198728, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='HS_8',Parent = HotTogles})
+local HS_3 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size36,Text='',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=35,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0288416762, 0, 0.308437914, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.375617772, 0, 0.128198728, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='HS_3',Parent = HotTogles})
+local HS_4 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size36,Text='NoClip',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=35,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.512910247, 0, 0.307984143, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.375617772, 0, 0.128198728, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='HS_4',Parent = HotTogles})
+local HS_5 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size36,Text='',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=35,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0288416762, 0, 0.506636143, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.375617772, 0, 0.128198728, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='HS_5',Parent = HotTogles})
+local HS_1 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size36,Text='',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=35,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0286929607, 0, 0.109501936, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.375617772, 0, 0.0864252821, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='HS_1',Parent = HotTogles})
+local HS_7 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size36,Text='',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=35,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0288416762, 0, 0.715344846, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.375617772, 0, 0.128198728, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='HS_7',Parent = HotTogles})
+local ColdTogles1 = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.509114563, 0, 0.318982393, 0),Rotation=0,Selectable=false,Size=UDim2.new(0.425130218, 0, 0.474559695, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'ColdTogles1',Parent = LocalPlayerMenu})
+local CS_B1 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size8,Text='   Give Ammo   X',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=8,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0118297618, 0, 0.0850367397, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.266754746, 0, 0.138824165, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='CS_B1',Parent = ColdTogles1})
+local CS_B2 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size8,Text='',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=8,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.364236206, 0, 0.0919732898, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.266754746, 0, 0.126638532, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='CS_B2',Parent = ColdTogles1})
+local CS_B5 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size8,Text='',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=8,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.363953859, 0, 0.288069338, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.266754746, 0, 0.124391176, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='CS_B5',Parent = ColdTogles1})
+local CS_B4 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size8,Text='',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=8,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.010766685, 0, 0.289807588, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.266754746, 0, 0.124391176, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='CS_B4',Parent = ColdTogles1})
+local CS_B6 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size8,Text='',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=8,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.713468671, 0, 0.288247406, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.268043518, 0, 0.129427955, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='CS_B6',Parent = ColdTogles1})
+local CS_B7 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size8,Text='',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=8,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0152643975, 0, 0.480412364, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.266754746, 0, 0.138824165, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='CS_B7',Parent = ColdTogles1})
+local CS_B8 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size8,Text='',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=8,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.364422113, 0, 0.47835052, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.266754746, 0, 0.138824165, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='CS_B8',Parent = ColdTogles1})
+local CS_B9 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size8,Text='',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=8,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.714999974, 0, 0.480000019, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.268043518, 0, 0.138824165, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='CS_B9',Parent = ColdTogles1})
+local CS_B10 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size8,Text='',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=8,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.0137330042, 0, 0.686597943, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.266754746, 0, 0.138824165, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='CS_B10',Parent = ColdTogles1})
+local CS_B11 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size8,Text='',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=8,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.364422113, 0, 0.686597943, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.266754746, 0, 0.138824165, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='CS_B11',Parent = ColdTogles1})
+local CS_B12 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size8,Text='',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=8,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.713468552, 0, 0.686185539, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.268043518, 0, 0.138824165, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='CS_B12',Parent = ColdTogles1})
+local CS_B3 = CreateInstance('TextButton',{Font=Enum.Font.Garamond,FontSize=Enum.FontSize.Size18,Text='',TextColor3=Color3.new(1, 1, 1),TextScaled=true,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0.3799999952316284,TextWrapped=true,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.713468611, 0, 0.0923711061, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.268043518, 0, 0.114679791, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='CS_B3',Parent = ColdTogles1})
+local PageBack = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.121373139, 0, 0.100639753, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 104, 0, 83),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='PageBack',Parent = LocalPlayerMenu})
+local PageNext = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size14,Text='',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.823915899, 0, 0.100639753, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 104, 0, 83),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='PageNext',Parent = LocalPlayerMenu})
+local ReOpen = CreateInstance('ImageButton',{Image='rbxasset://textures/ui/GuiImagePlaceholder.png',ImageColor3=Color3.new(1, 1, 1),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.417409539, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(0.199479163, 0, 0.102777779, 0),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=false,ZIndex=1,Name='ReOpen',Parent = STKv8S})
+--Attributes HotScripts, Varient Toggles
+function GiveAttribute(Hotscriptbutton,VareintToggleNumber)
+Hotscriptbutton:SetAttribute(VareintToggleNumber,false)   
+end
+function HandAttribute(HSB) --Used to keep track of page number *add Data for Pages here
+GiveAttribute(HSB,"VToggle0") GiveAttribute(HSB,"VToggle0") GiveAttribute(HSB,"VToggle1") GiveAttribute(HSB,"VToggle2")  GiveAttribute(HSB,"VToggle3") 
+end
+
+HandAttribute(HS_1)
+HandAttribute(HS_2)
+HandAttribute(HS_3)
+HandAttribute(HS_4)
+HandAttribute(HS_5)
+HandAttribute(HS_6)
+HandAttribute(HS_7)
+HandAttribute(HS_8)
+
+function ToggleVareint(HSB,VToggleNumber)
+	if HSB:GetAttribute(VToggleNumber) == true then HSB:SetAttribute(VToggleNumber,false)  else HSB:SetAttribute(VToggleNumber,true) 
+    end end
+
+
+--STKv8/Libary
+--Delay Start
+PDMN =LocalPlayerMenu --Pre determined Menu Name
+-- Pre Start
+White = Color3.new(1.0, 1.0, 1.0)
+nonWhite = Color3.new(0.0, 0.992156, 0.164705)
+
+
+--Libary/Ui:
+uis = game:GetService("UserInputService")
+
+--Libary/Functions
+--Pc Close
+uis.InputBegan:Connect(function(input)
+	if uis:IsKeyDown(Enum.KeyCode.BackSlash) then
+		if PDMN.Visible == true then PDMN.Visible = false else PDMN.Visible = true 
+		end end end) 
+
+--Mobile Close
+MenuVToggle.MouseButton1Down:connect(function() ReOpen.Visible = true PDMN.Visible = false end)
+ReOpen.MouseButton1Down:connect(function()  PDMN.Visible = true  ReOpen.Visible = false end)
+
+
+--STKv8/Functions
+
+ 
+--Player
+function noclipL()
+	local mouse = game.Players.LocalPlayer:GetMouse()
+	while HS_4:GetAttribute("VToggle0") == true do
+    if HS_4:GetAttribute("VToggle0") == true then
+			for _, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+				pcall(function()
+					if v:IsA("BasePart") then
+						v.CanCollide = false
+					end end) end
+		game:GetService("RunService").Stepped:wait() end end end
+
+
+
+function InfiniteJump()
+	game:GetService("UserInputService").JumpRequest:connect(function()
+    if  HS_2:GetAttribute("VToggle0") == true  then
+			game.Players.LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+			wait() end end) end 
+
+function TeleportTool()
+	local mouse = game.Players.LocalPlayer:GetMouse()
+	local tool = Instance.new("Tool")
+	tool.RequiresHandle = false
+	tool.Name = "Tp Tool"
+	tool.Activated:connect(function()
+		local pos = mouse.Hit+Vector3.new(0,2.5,0)
+		pos = CFrame.new(pos.X,pos.Y,pos.Z)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+	end) tool.Parent = game.Players.LocalPlayer.Backpack end
+
+function GiveAmmo()
+	for i,v in next,getgc(true)do
+		if type(v)=='table'and rawget(v,'ammo')then
+			v.stored_ammo = v.max_stored
+		end end end
+
+
+function CamaraMode()
+	local OldPos = game:GetService("Workspace")["Surveillance Cameras"].Triggers.Seat.CFrame
+	local HoldPos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+	wait()
+	game:GetService("Workspace")["Surveillance Cameras"].Triggers.Seat.CFrame 
+		= game.Players.LocalPlayer.Character.Torso.CFrame
+	wait()
+	uis.InputBegan:Connect(function(input, gameProcessed)
+		if input.UserInputType == Enum.UserInputType.Keyboard then
+			local keyPressed = 32 --Space
+			wait(.3)  
+			game:GetService("Workspace")["Surveillance Cameras"].Triggers.Seat.CFrame = OldPos
+		end end) end 
+
+function GiveDeleteTool()
+	local a=Instance.new("Tool")a.RequiresHandle=false;a.Name="Delete"
+	local b=game.Players.LocalPlayer;a.Parent=b:WaitForChild("Backpack")local c=b:GetMouse()
+	local d=false;local e=Instance.new("SelectionBox")e.Color3=Color3.new(0, 1, 1)e.Parent=b.PlayerGui;
+	local c=b:GetMouse()
+	local e=Instance.new("SelectionBox")e.Color3=Color3.new(0, 1, 1)e.Parent=b.PlayerGui;e.Name="derp"c.Move:connect(function()if d then local f=c.Target;
+			if not f then e.Adornee=nil else if f:IsA("BasePart")then e.Adornee=f else e.Adornee=nil end end end end)
+	a.Equipped:Connect(function()d=true end)a.Unequipped:Connect(function()e.Adornee=nil;d=false end)
+	a.Activated:Connect(function()if e.Adornee then 
+			local g=Instance.new("Explosion")g.Parent=game.Workspace;g.Position=e.Adornee.Position;g.BlastPressure=0;
+			local h=Instance.new("Sound")h.SoundId="http://www.roblox.com/asset/?id=315775189"h.Parent=game.Workspace;h:Play()e.Adornee:Destroy()e.Adornee=nil end end)
+end 
+
+
+
+function getcommandcode()
+	print("Patched")
+end
+--Game
+function RemoveFog()
+	if HS_1:GetAttribute("VToggle1") == true then
+		game.lighting.FogStart = 10000
+		game.lighting.FogEnd = 20000 
+	else
+		game.lighting.FogStart = 20
+		game.lighting.FogEnd = 200 
+	end end
+
+
+function AntiAfk()
+	if game:IsLoaded() ~= true then
+		game.Loaded:Wait()
+	end
+	local Players = game:GetService('Players')
+	local s,e = pcall(function()
+		local GC = getconnections or get_signal_cons
+		if GC then
+			for i,v in pairs(GC(Players.LocalPlayer.Idled)) do
+				if v["Disable"] then
+					v["Disable"](v)
+				elseif v["Disconnect"] then
+					v["Disconnect"](v) end end
+			print("Armed") else
+			Notify('Outdated Exploit', 'Script was not executed ')
+			script:Destroy()
+		end end)
+	if not s then warn(e); script:Destroy() end end
+
+function  RemoveDamgers()
+	for i,v in pairs(workspace.AREA51:GetDescendants()) do 
+		if v.name == "TouchInterest" then if 
+				v.parent.name == "MapLimit" or 
+				v.parent.parent.name == "Liquide" or 
+				v.parent.parent.name == "Barbeles" or 
+				v.parent.parent.name == "Cactus" or 
+				v.parent == "Kill" or 
+				v.parent.parent.name == "Polluted Water" or 
+				v.parent.parent.name == "Deadly" or 
+				v.parent.parent.name == "Spinner" or 
+				v.parent.parent.parent.name == "Spikes" 
+			then v:Destroy() end end end end
+
+
+function NerfKillers()
+	while wait(5) do
+		for _,t in pairs(game:GetService("Workspace").Killers:GetDescendants()) do 
+			if t:IsA'TouchTransmitter' then t:destroy() end end
+		for _,t in pairs(game:GetService("Workspace").Killers:GetDescendants()) do 
+			if t:IsA'TouchInterest' then t:destroy() end end
+		for _,t in pairs(game:GetService("Workspace").Killers:GetDescendants()) do 
+			if t:IsA'Tool' then t:destroy() end end end end
+
+function WheelchairKillers()
+	while wait(2) do
+		for i,v in pairs(game:GetService("Workspace").Killers:GetDescendants()) do 
+			if v.name == 'Zombie' and v.parent.parent.name == 'Killers' then 
+				v:destroy()
+			end end end end
+
+function RemoveDoors()
+	for i,v in pairs(game:GetService("Workspace").Doors:GetDescendants()) do
+		if  v:IsA ("Part") and v.name == 'Door' then
+			v:Destroy() end end end 
+
+
+--STKv8/Buttons
+--Buttons/PageLoader *Make Pages Here
+function TogglePage1()
+	PageType.Text = "LocalPlayer Scripts"
+	CS_B1.Text = "GetCode"
+	CS_B2.Text = "Delete Tool"
+	CS_B3.Text = "Telport Tool"
+	CS_B4.Text = "Camara Mode"
+	CS_B5.Text = ""
+	CS_B6.Text = ""
+	CS_B7.Text = ""
+	CS_B8.Text = ""
+	CS_B9.Text = ""
+	CS_B10.Text = ""
+	CS_B11.Text = ""
+	CS_B12.Text = ""
+	wait()
+	HS_1.Text = ""
+	HS_2.Text = "Infinite Jump"
+	HS_3.Text = ""
+	HS_4.Text = "NoClip"
+	HS_5.Text = ""
+	HS_6.Text = ""
+	HS_7.Text = ""
+	HS_8.Text = ""
+	LoadColorState("VToggle0")
+	wait()
+
+end
+
+function TogglePage2()
+	PageType.Text = "Game Scripts"
+	CS_B1.Text = "Remove Damgers"
+	CS_B2.Text = "Anti Afk"
+	CS_B3.Text = "Nerf Killers"
+	CS_B4.Text = "Disable Nearby Killers"
+	CS_B5.Text = ""
+	CS_B6.Text = ""
+	CS_B7.Text = ""
+	CS_B8.Text = ""
+	CS_B9.Text = ""
+	CS_B10.Text = ""
+	CS_B11.Text = ""
+	CS_B12.Text = ""
+	wait()
+	HS_1.Text = "Toggle Fog"
+	HS_2.Text = ""
+	HS_3.Text = ""
+	HS_4.Text = ""
+	HS_5.Text = ""
+	HS_6.Text = ""
+	HS_7.Text = ""
+	HS_8.Text = ""
+	wait()
+	LoadColorState("VToggle1")
+end
+
+--Buttons/Button Mapping *Attach Buttons to each script
+
+
+--Cold Button Map[in]
+function SelectedPageCS(ButtonTypeCS)
+	if PageType.Text == "LocalPlayer Scripts" then	--page 1
+		if ButtonTypeCS == "CS_B1" then getcommandcode() end
+		if ButtonTypeCS == "CS_B2" then GiveDeleteTool() end
+		if ButtonTypeCS == "CS_B3" then TeleportTool() end
+		if ButtonTypeCS == "CS_B4" then CamaraMode() end
+		if ButtonTypeCS == "CS_B5" then end
+		if ButtonTypeCS == "CS_B6" then  end
+		if ButtonTypeCS == "CS_B7" then end
+		if ButtonTypeCS == "CS_B8" then end
+		if ButtonTypeCS == "CS_B9" then end
+		if ButtonTypeCS == "CS_B10" then end
+		if ButtonTypeCS == "CS_B11" then end
+		if ButtonTypeCS == "CS_B12" then end
+	end
+	if PageType.Text == "Game Scripts" then  --Page 2
+		if ButtonTypeCS == "CS_1" then RemoveDamgers() end
+		if ButtonTypeCS == "CS_2" then AntiAfk() end
+		if ButtonTypeCS == "CS_3" then NerfKillers() end
+		if ButtonTypeCS == "CS_4" then WheelchairKillers() end
+		if ButtonTypeCS == "CS_5" then end
+		if ButtonTypeCS == "CS_6" then end
+		if ButtonTypeCS == "CS_7" then end
+		if ButtonTypeCS == "CS_8" then end
+		if ButtonTypeCS == "CS_9" then end
+		if ButtonTypeCS == "CS_10" then end
+		if ButtonTypeCS == "CS_11" then end
+		if ButtonTypeCS == "CS_12" then end
+	end 
+	--Page 3
+end
+
+--Color Plate
+function SaveColorState(HSB,VToggle)
+    if HSB:GetAttribute(VToggle) == true then HSB.TextColor3 = nonWhite else HSB.TextColor3 = White
+end end
+
+function LoadColorState(VTN) 
+    SaveColorState(HS_1,VTN)
+    SaveColorState(HS_2,VTN)
+    SaveColorState(HS_3,VTN)
+    SaveColorState(HS_4,VTN)
+    SaveColorState(HS_5,VTN)
+    SaveColorState(HS_6,VTN)
+    SaveColorState(HS_7,VTN)
+    SaveColorState(HS_8,VTN)
+end
+--HotScripts Button Map[in]
+function SelectedPageHS(ButtonTypeHS)
+	if PageType.Text == "LocalPlayer Scripts" then 
+		--page 1 
+		if ButtonTypeHS == "HS_1" then  end
+		if ButtonTypeHS == "HS_2" then ToggleVareint(HS_2,'VToggle0')  InfiniteJump() end
+		if ButtonTypeHS == "HS_3" then end 
+		if ButtonTypeHS == "HS_4" then ToggleVareint(HS_4,'VToggle0') noclipL() end
+		if ButtonTypeHS == "HS_5" then end
+		if ButtonTypeHS == "HS_6" then end
+		if ButtonTypeHS == "HS_7" then end
+		if ButtonTypeHS == "HS_8" then end
+        LoadColorState('VToggle0')
+	end
+	if PageType.Text == "Game Scripts" then  --Page 2
+		if ButtonTypeHS == "HS_1" then ToggleVareint(HS_1,'VToggle1') RemoveFog() end
+		if ButtonTypeHS == "HS_2" then end
+		if ButtonTypeHS == "HS_3" then end 
+		if ButtonTypeHS == "HS_4" then end
+		if ButtonTypeHS == "HS_5" then end
+		if ButtonTypeHS == "HS_6" then end
+		if ButtonTypeHS == "HS_7" then end
+		if ButtonTypeHS == "HS_8" then end
+        LoadColorState('VToggle1')
+	end
+	--Page 3
+end 
+
+
+
+--Cold Toggles 
+CS_B1.MouseButton1Down:connect(function() SelectedPageCS("CS_B1") end)
+CS_B2.MouseButton1Down:connect(function() SelectedPageCS("CS_B2") end)
+CS_B3.MouseButton1Down:connect(function() SelectedPageCS("CS_B3") end)
+CS_B4.MouseButton1Down:connect(function() SelectedPageCS("CS_B4") end)
+CS_B5.MouseButton1Down:connect(function() SelectedPageCS("CS_B5") end)
+CS_B6.MouseButton1Down:connect(function() SelectedPageCS("CS_B6") end)
+
+--Hot Toggles
+HS_4.MouseButton1Down:connect(function() SelectedPageHS("HS_4") end) 
+HS_3.MouseButton1Down:connect(function() SelectedPageHS("HS_3") end) 
+HS_2.MouseButton1Down:connect(function() SelectedPageHS("HS_2") end) 
+HS_1.MouseButton1Down:connect(function() SelectedPageHS("HS_1") end) 
+--MovePage
+function NextPageOver()
+	-- add here
+	if PageType.Text == "Game Scripts" then  end
+	if PageType.Text == "LocalPlayer Scripts" then TogglePage2() end
+end 
+
+function RemovePageOver()
+	if PageType.Text == "LocalPlayer Scripts" then  end
+	if PageType.Text == "Game Scripts" then  TogglePage1() end
+	-- add here
+end
+PageNext.MouseButton1Down:connect(function() NextPageOver() end)
+PageBack.MouseButton1Down:connect(function() RemovePageOver() end)
+
+--/STKv8 AfterLoad
+TogglePage1()
+
+--Menu Tools Scripts 
+uis.InputBegan:Connect(function(input)
+	if uis:IsKeyDown(Enum.KeyCode.P) then
+		STKv8S:Destroy() end end) 
