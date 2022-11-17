@@ -1,1 +1,7 @@
+--STKv8 Alpha v5.5
+--Beta is still being worked on
+
+
+--Setttings
+QuickLoad = false -- Quick Load not advised for mobile
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Alpha%205/5.5.txt'))()
