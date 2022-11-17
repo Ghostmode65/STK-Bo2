@@ -1,5 +1,5 @@
 --STKv8 Alpha v5.5
---Beta is still being worked on
+--Menu Revamp 
 
 
 --Setttings
