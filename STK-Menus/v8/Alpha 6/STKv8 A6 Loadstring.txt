@@ -4,6 +4,6 @@
 
 --Setttings
 QuickLoad = false -- Quick Load not advised for mobile
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Alpha%205/5.6.txt'))()
-task.wait
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Alpha%205/5.6.txt'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Alpha%206/LocalScripts.txt'))()
+task.wait()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Alpha%206/TeleportScripts.txt'))()

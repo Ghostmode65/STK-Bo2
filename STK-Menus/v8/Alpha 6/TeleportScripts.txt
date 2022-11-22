@@ -1,4 +1,4 @@
-QuickLoad = true -- Quick Load not advised for mobile
+
 --Generated with Syntax's Converter, comet hub in the works! pastebin search coming soooon REEEEEEE.
 --Counted 60 (objects this time!!!)
 local function CreateInstance(cls,props)
