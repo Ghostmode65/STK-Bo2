@@ -666,7 +666,7 @@ end
 
 function LoadPage8()
  togglePage("Page8",
- "Rejoin World","NCS_B2","NCS_B3",
+ "Rejoin World","Close Menu","NCS_B3",
  "NCS_B4","NCS_B5","NCS_B6",
  "NCS_B7","NCS_B8","NCS_B9",
  "NCS_B10","NCS_B11","NCS_B12",
@@ -1034,7 +1034,7 @@ end
 
 function SelectedPage8(ButtonNumber)
 if ButtonNumber == "CS_B1" then ReJoinworld() end
-if ButtonNumber == "CS_B2" then end
+if ButtonNumber == "CS_B2" then  MainFrameSet.Visible = false  ReOpen.Visible = true end
 if ButtonNumber == "CS_B3" then end
 if ButtonNumber == "CS_B4" then end
 if ButtonNumber == "CS_B5" then end
