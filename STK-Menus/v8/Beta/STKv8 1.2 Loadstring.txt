@@ -1,5 +1,5 @@
---STKv8 Beta v1.1
---Menu Revamp 
+--STKv8 Beta v1.2
+--Fixes, lots of damn fixes
 
 
 --Setttings
