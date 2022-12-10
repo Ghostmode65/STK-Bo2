@@ -108,6 +108,7 @@ ColdScripts.VerticalScrollBarPosition = "Left"
 
 --Libary/GuiSettings
 
+QuickLoad = true -- Quick Load not advised for mobile
 
 
 --Libary/Gui Bonding
