@@ -1577,5 +1577,5 @@ Link3.MouseButton1Down:connect(function() setclipboard('https://www.youtube.com/
 --DesroyMenu:
 uis.InputBegan:Connect(function(input) 
 	if uis:IsKeyDown(Enum.KeyCode.P) then STKv8S:Destroy()
-    	end end) 
+    	end end) --
 
