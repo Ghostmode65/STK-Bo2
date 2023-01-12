@@ -1578,3 +1578,4 @@ uis.InputBegan:Connect(function(input)
 	if uis:IsKeyDown(Enum.KeyCode.P) then STKv8S:Destroy()
     	end end) 
 
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/Teleports%20Beta%201.2.lua'))()
