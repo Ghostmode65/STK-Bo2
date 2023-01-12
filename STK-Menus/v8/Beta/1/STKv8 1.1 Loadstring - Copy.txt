@@ -1,0 +1,11 @@
+--STKv8 Beta v1.2
+--Menu Revamp 
+--Bug fixes
+--Improvments
+
+
+--Setttings
+QuickLoad = false -- Quick Load not advised for mobile
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/STKv8%20Beta%201.1.lua'))()
+task.wait(1)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/Teleports%20Beta%201.1.lua'))()
