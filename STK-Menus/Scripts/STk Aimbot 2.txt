@@ -206,3 +206,5 @@ function Aimbot(TType,DistanceE) --Settings Here, -- Not mine, just slightly edi
 		wait()
 		if ESP_ENABLED == true then FIND() end
 	until ESP_ENABLED == false end
+
+aimbot(false,20)
