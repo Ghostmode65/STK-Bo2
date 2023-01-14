@@ -207,4 +207,4 @@ function Aimbot(TType,DistanceE) --Settings Here, -- Not mine, just slightly edi
 		if ESP_ENABLED == true then FIND() end
 	until ESP_ENABLED == false end
 
-aimbot(false,20)
+
