@@ -1,4 +1,4 @@
-QuickLoad = true -- Quick Load not advised for mobile
+
 
 for _,gui in pairs(game.CoreGui.STKv8S.MainFrameSet:GetChildren()) do
 if gui.name == 'Guns' then print('Gui already enabled') coroutine.pause() end end

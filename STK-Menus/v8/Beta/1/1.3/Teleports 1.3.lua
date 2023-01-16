@@ -1,4 +1,3 @@
-QuickLoad = true -- Quick Load not advised for mobile
 
 
 for _,gui in pairs(game.CoreGui.STKv8S.MainFrameSet:GetChildren()) do

@@ -1,0 +1,19 @@
+--STKv8 Beta v1.3
+
+
+QuickLoad = true -- Quick Load not advised for mobile
+spoof = true 
+
+
+loadstring(game:HttpGet('Link'))()
+
+loadstring(game:HttpGet('Link'))()
+
+loadstring(game:HttpGet('Link'))()
+
+loadstring(game:HttpGet('Link'))()
+
+--loadstring(game:HttpGet('Link'))()
+
+
+
