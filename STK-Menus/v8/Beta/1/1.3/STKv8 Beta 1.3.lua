@@ -645,10 +645,12 @@ end
 
 
             --Player Scripts 
-	MessageGayAssPlayer2('Orginal Esp by x_up')
-		MessageGayAssPlayer2('--Made for Synpase v3')
+	
 	
 			function PlayerEsp(ButtonN,DataPageN)
+
+MessageGayAssPlayer2('Orginal Esp by x_up')
+		MessageGayAssPlayer2('--Made for Synpase v3')
 local defaultBoxProperties = {
 	Thickness = 1;
 	Color = Color3.new(1,1,1); 
