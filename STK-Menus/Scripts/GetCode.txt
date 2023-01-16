@@ -3,22 +3,31 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
   Text = "Check Chat Window"
 })
 
-A = ("http://www.roblox.com/asset/?id=129100599")
-B = ("http://www.roblox.com/asset/?id=94194191")
-C = ("http://www.roblox.com/asset/?id=94194693")
-D = ("http://www.roblox.com/asset/?id=94194940")
-F = ("http://www.roblox.com/asset/?id=94194979")
-G = ("http://www.roblox.com/asset/?id=94195066")
-H = ("http://www.roblox.com/asset/?id=94195245")
-I = ("http://www.roblox.com/asset/?id=94195123")
-J = ("http://www.roblox.com/asset/?id=94195312")
+function Round(n, decimals)
+	decimals = decimals or 0
+	return math.floor(n * 10^decimals) / 10^decimals
+end
 
-if game:GetService("Workspace").AREA51.CodeModel.Part.Decal.Texture == A or B or C or D or F or G or H or I or J then print("Getting Code")
-    end
- wait(2)
+
+K = 0.19218 --0
+A = 0.08593 --1
+B = 0.1625    --2
+C = 0.16406  --3
+D = 0.2            --4
+F = 0.15937  --5
+G = 0.16062     --6
+H = 0.18906  --7
+I = 0.16093 --8
+J = 0.19218 -- 9
+
  
-local StarterGui = game:GetService("StarterGui")
 
+if workspace.AREA51.CodeModel.Code.CodeSurface.Image1.Size.X.Scale == A or B or C or D or F or G or H or I or J or K then print("Getting Code")
+    end
+    
+ task.wait(2)
+
+local StarterGui = game:GetService("StarterGui")
 
 	local Success = pcall(function()
 	StarterGui:SetCore("ChatMakeSystemMessage", {
@@ -34,19 +43,23 @@ local StarterGui = game:GetService("StarterGui")
 			TextSize = 18 --Text size, defaults to 18
 			})
 			
-for i,v in pairs(workspace.AREA51:GetDescendants()) do 
-		if v.Name == "Decal" and v.parent.parent.Name == "CodeModel" then 
-		    
-if v.Texture == A then Wobble=("0") end 
-if v.Texture == B then Wobble=("1")  end 
-if v.Texture == C then Wobble=("2")  end 
-if v.Texture == D then Wobble=("3")  end 
-if v.Texture == F then Wobble=("5")  end 
-if v.Texture == G then Wobble=("6")  end 
-if v.Texture == H then Wobble=("7")  end 
-if v.Texture == I then Wobble=("8")  end 
-if v.Texture == J then Wobble=("9")  end 
+for i,v in pairs(workspace.AREA51.CodeModel.Code.CodeSurface:GetDescendants()) do 
+	SizeNumber = v.Size.X.Scale
 
+CNum = Round(SizeNumber,5) 
+
+if CNum == K then Wobble=("0") end 
+if CNum  == A then Wobble=("1")  end 
+if CNum  == B then Wobble=("2")  end 
+if CNum  == C then Wobble=("3")  end 
+if CNum  == D then Wobble=("4")  end 
+if CNum  == F then Wobble=("5")  end 
+if CNum  == G then Wobble=("6")  end 
+if CNum  == H then Wobble=("7")  end 
+if CNum == I then Wobble=("8")  end 
+if CNum  == J then Wobble=("9")  end 
+
+task.wait(1)
 
 		StarterGui:SetCore("ChatMakeSystemMessage", {
 			Text = Wobble; --The chat message
@@ -55,7 +68,7 @@ if v.Texture == J then Wobble=("9")  end
 			TextSize = 18 --Text size, defaults to 18
 		})
 	end
-end
+
 
 
 	
