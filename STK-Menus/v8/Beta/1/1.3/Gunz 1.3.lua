@@ -538,7 +538,6 @@ end
 
 
 
- LoadPage1()--DefultPage
 
 MessageGayAssPlayer("[Menu]: Injecting") 
 
@@ -1068,5 +1067,5 @@ HS_6.MouseButton1Down:connect(function() PageMapper("HS_6") end)
 HS_7.MouseButton1Down:connect(function() PageMapper("HS_7") end)
 HS_8.MouseButton1Down:connect(function() PageMapper("HS_8") end)
 
-if HotTogles.Visible == false and ColdScripts.Visible == false then LoadPage1() ColdScripts.Visible = true end
+
 

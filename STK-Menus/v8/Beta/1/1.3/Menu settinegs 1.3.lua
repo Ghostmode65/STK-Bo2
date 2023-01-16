@@ -547,7 +547,7 @@ function LoadinfoStuff() --InfoGram
 ELoadIfno("DataPage8",Page8)
 end
 
- LoadPage1()--DefultPage
+
 
 MessageGayAssPlayer("[Menu]: Injecting") 
 
@@ -1082,7 +1082,6 @@ Link2.MouseButton1Down:connect(function() setclipboard('https://github.com/Ghost
 Link3.MouseButton1Down:connect(function() setclipboard('https://www.youtube.com/c/CreepingpigYT') Notify("Youtube", "Link Copied To 🌐 Clipboard") end)
 
 
-if HotTogles.Visible == false and ColdScripts.Visible == false then LoadPage1() ColdScripts.Visible = true end
 
 MessageGayAssPlayer("[Menu]: No other Scripts Found") 
 MessageGayAssPlayer("[Menu]: STKv8 Successfully Loaded 4 out of 7 Instances ") 
