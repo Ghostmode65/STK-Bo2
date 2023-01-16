@@ -547,7 +547,7 @@ function LoadinfoStuff() --InfoGram
 ELoadIfno("DataPage8",Page8)
 end
 
-
+ LoadPage1()--DefultPage
 
 MessageGayAssPlayer("[Menu]: Injecting") 
 
@@ -1082,6 +1082,7 @@ Link2.MouseButton1Down:connect(function() setclipboard('https://github.com/Ghost
 Link3.MouseButton1Down:connect(function() setclipboard('https://www.youtube.com/c/CreepingpigYT') Notify("Youtube", "Link Copied To 🌐 Clipboard") end)
 
 
+if HotTogles.Visible == false and ColdScripts.Visible == false then LoadPage1() ColdScripts.Visible = true end
 
 MessageGayAssPlayer("[Menu]: No other Scripts Found") 
 MessageGayAssPlayer("[Menu]: STKv8 Successfully Loaded 4 out of 7 Instances ") 
@@ -1090,3 +1091,26 @@ MenuTypeName.Parent.Parent.ReOpen.Visible = true
 MessageGayAssPlayer("[Menu]: Menu Loaded Enjoy") 
 
 --Admin ui Tools
+
+uis.InputBegan:Connect(function(input) 
+	if uis:IsKeyDown(Enum.KeyCode.K) then DefultSizeMenu()
+    	end end) 
+
+        uis.InputBegan:Connect(function(input) 
+	if uis:IsKeyDown(Enum.KeyCode.L) then DefultPagePosition()
+    	end end) 
+
+local serial = ""
+for i = 1, 7 do
+	serial = serial .. string.char(math.random(100,150))
+	MenuTypeName.Parent.Name = serial 
+     end 
+
+     local serial = ""
+for i = 1, 7 do
+	serial = serial .. string.char(math.random(100,150))
+	MenuTypeName.Parent.Parent.Name = serial 
+     end 
+
+if spoof == true then  game.Players.LocalPlayer.DisplayName = "Ghostmode65" end
+
