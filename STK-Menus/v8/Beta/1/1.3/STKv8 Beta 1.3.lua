@@ -265,14 +265,6 @@ function MessageGayAssPlayer(TextHere) -- delete code in function to remove
     end end
 
 
-	for i,v in pairs(workspace.Top10:GetDescendants()) do 
-    if v:IsA 'TextLabel' and 
-    v.name == 'DisplayName' then 
-    v.Text = 'Ghostmode65'
-    else if  v.name == 'PlayerName' then 
-        v.Text = '' 
-           else if  v.name == 'Kills' then 
-        v.Text = '∞' end end end end
 
 
 
