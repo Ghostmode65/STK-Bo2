@@ -7,13 +7,7 @@ PostFiguredName = "LocalScripts"
 for _,gui in pairs(game.CoreGui:GetChildren()) do -- prevents double execution 
 if gui.name == 'STKv8S' then print('Gui already enabled') coroutine.pause() end end
 
-local function CreateInstance(cls,props)
-local inst = Instance.new(cls)
-for i,v in pairs(props) do
-	inst[i] = v
-end
-return inst
-end
+
 	
 --Generated with Syntax's Converter, comet hub in the works! pastebin search coming soooon REEEEEEE.
 --Counted 75 (objects this time!!!)
