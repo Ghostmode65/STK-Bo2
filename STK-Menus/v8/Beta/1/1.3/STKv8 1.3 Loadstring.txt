@@ -1,7 +1,8 @@
 --STKv8 Beta v1.3
 
 --Notes:
---This will not autoupdate!!!
+--Most Execute Each Script separately!!!
+--This will be fixed in the next couple updates
 
 
 
@@ -9,15 +10,18 @@
 QuickLoad = false-- Quick Load not advised for mobile
 spoof = true 
 
---Gui's
 
+--EXECUTE THIS ONE FIRST
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.3/STKv8%20Beta%201.3.lua'))() 
-wait(3)
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.3/Teleports%201.3.lua'))() 
-wait(3)
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.3/Gunz%201.3.lua'))() 
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.3/Menu%20settinegs%201.3.lua'))() 
+
+--loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.3/Teleports%201.3.lua'))() 
+
+--loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.3/Gunz%201.3.lua'))() 
+
+
+--EXECUTE THIS ONE LAST
+--loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.3/Menu%20settinegs%201.3.lua'))() 
 
 
 
