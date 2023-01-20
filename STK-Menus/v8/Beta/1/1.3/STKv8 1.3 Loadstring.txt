@@ -1,8 +1,13 @@
 --STKv8 Beta v1.3
+--By Ghostmode65
+
 
 --Notes:
---Most Execute Each Script separately!!!
---This will be fixed in the next couple updates
+--Must Execute Each Script Separately!!!
+--It will be stuck on injecting if you only load the first one!
+--The menu will be frozen if you try to laod more then one at a time!
+
+
 
 
 
