@@ -44,6 +44,7 @@ local StarterGui = game:GetService("StarterGui")
 			})
 			
 for i,v in pairs(workspace.AREA51.CodeModel.Code.CodeSurface:GetDescendants()) do 
+if v:IsA 'ImageLabel' then
 	SizeNumber = v.Size.X.Scale
 
 CNum = Round(SizeNumber,5) 
@@ -67,7 +68,7 @@ task.wait(1)
 			Font = Enum.Font.SourceSansBold; --Chat message font, defaults to SourceSansBold
 			TextSize = 18 --Text size, defaults to 18
 		})
-	end
+	end end 
 
 
 
