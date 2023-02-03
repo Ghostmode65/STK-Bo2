@@ -110,7 +110,6 @@ MainFrameSet.Visible = false
 ReOpen.Visible = false
 --Libary/Name Menu
 DefultMenuName = "LocalScripts"
-PostFiguredName = "LocalScripts"
 
 MenuTypeName.Name = PostFiguredName
 
