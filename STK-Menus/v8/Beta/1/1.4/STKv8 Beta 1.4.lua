@@ -109,7 +109,7 @@ PowerButton.Visible = true
 MainFrameSet.Visible = false
 ReOpen.Visible = false
 --Libary/Name Menu
-DefultMenuName = "LocalScripts"
+DefultMenuName = "LocalScriptz"
 
 MenuTypeName.Name = PostFiguredName
 
