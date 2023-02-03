@@ -171,12 +171,12 @@ function Turnoffmenus()
 	MenuTypeName.Parent.Settings.Visible = false
 MenuTypeName.Parent.Guns.Visible = false
 	MenuTypeName.Parent.Teleports.Visible = false
-	MenuTypeName.Parent.LocalScripts.Visible = false
+	MenuTypeName.Parent.LocalScriptz.Visible = false
 end
 
 LocalScripts.MouseButton1Down:Connect(function() 
 Turnoffmenus() task.wait()
-MenuTypeName.Parent.LocalScripts.Visible = true
+MenuTypeName.Parent.LocalScriptz.Visible = true
 end)
 
 Teleports.MouseButton1Down:Connect(function() 

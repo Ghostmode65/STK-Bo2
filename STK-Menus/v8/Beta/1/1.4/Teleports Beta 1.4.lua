@@ -140,7 +140,7 @@ AddUILimit(Overlay,2.223)
 --Libary/Gui Bonding
 
 GuiBack.MouseButton1Down:Connect(function() 
-MenuTypeName.Parent.LocalScripts.Visible = true
+MenuTypeName.Parent.LocalScriptz.Visible = true
 MenuTypeName.Visible = false
 end)
 

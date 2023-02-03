@@ -253,12 +253,12 @@ end
 function TransprentMode(ButtonN,DataPageN)
 if ButtonN:GetAttribute(DataPageN) == true then
     	MenuTypeName.Parent.Teleports.ImageTransparency = 0
-	MenuTypeName.Parent.LocalScripts.ImageTransparency = 0
+	MenuTypeName.Parent.LocalScriptz.ImageTransparency = 0
 	MenuTypeName.Parent.Guns.ImageTransparency = 0
     MenuTypeName.Parent.Settings.ImageTransparency = 0
     else 
     MenuTypeName.Parent.Teleports.ImageTransparency = .4
-	MenuTypeName.Parent.LocalScripts.ImageTransparency = .4
+	MenuTypeName.Parent.LocalScriptz.ImageTransparency = .4
 	MenuTypeName.Parent.Guns.ImageTransparency = .4
     MenuTypeName.Parent.Settings.ImageTransparency = .4
 end end 
