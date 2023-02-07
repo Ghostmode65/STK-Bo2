@@ -18,25 +18,25 @@
 QuickLoad = false-- Quick Load not advised for mobile
 spoof = true 
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.4/STKv8%20Beta%201.4.lua',true))() 
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.5/STKv8%20Beta1.5.lua',true))() 
 
 --Global Teleports, Sript 2
 QuickLoad = false-- Quick Load not advised for mobile
 spoof = true 
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.4/Teleports%20Beta%201.4.lua',true))() 
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.5/Teleports.lua.lua',true))() 
 
 --Guns, Sript 3
 QuickLoad = false-- Quick Load not advised for mobile
 spoof = true 
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.4/Guns%20Beta%201.4.lua',true))() 
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.5/Guns.lua',true))() 
 
 
 --Menu, Sript 4
 QuickLoad = false-- Quick Load not advised for mobile
 spoof = true 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.4/MenuSettings%201.4.lua',true))() 
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.5/MenuSettings.lua',true))() 
 
 
 
@@ -45,3 +45,4 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/m
 --FPS Booster
 --Graphic Enchancers
 --Bug Fixes
+--Etc
