@@ -1,6 +1,3 @@
---Gui Settings
-QuickLoad = true -- Quick Load not advised for mobile
-Spoof = false -- Spoofs Model and Name for video recording 
 
 --Notes
 --Load Order Does Not Matter, Is Recommened To execute This one first

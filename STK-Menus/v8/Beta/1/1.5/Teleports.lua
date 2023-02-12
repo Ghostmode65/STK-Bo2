@@ -1,5 +1,3 @@
---Gui Settings
-QuickLoad = true -- Quick Load not advised for mobile
 
 --Menu Settings (Do Not Change!!!)
 PostFiguredName = "Teleports"

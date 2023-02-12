@@ -1,7 +1,3 @@
---Gui Settings
-QuickLoad = true -- Quick Load not advised for mobile
-Spoof = false -- Spoofs Model and Name for video recording 
-
 
 
 --Menu Settings (Do Not Change!!!)

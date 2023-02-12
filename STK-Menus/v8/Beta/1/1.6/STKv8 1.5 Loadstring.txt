@@ -1,0 +1,43 @@
+--STKv8 Beta v1.6
+--By Ghostmode65
+
+
+--Notes:
+--Must Execute Each Script Separately!!! (Still trying to fix)
+--Load Order Does NOT matter anymore, as long as you load all of them. 
+
+--If It does not Load:
+--It will be stuck on injecting if you only load the first one!
+--The menu will be frozen if you try to laod more then one at a time!
+
+
+
+--///Scripts\\\
+
+--Cleint, Sript 1
+QuickLoad = false-- Quick Load not advised for mobile
+spoof = true 
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.6/STKv8%20Beta1.6.lua',true))() 
+
+--Global Teleports, Sript 2
+QuickLoad = false-- Quick Load not advised for mobile
+spoof = true 
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.6/Teleports.lua.lua',true))() 
+
+--Guns, Sript 3
+QuickLoad = false-- Quick Load not advised for mobile
+spoof = true 
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.6/Guns.lua',true))() 
+
+
+--Menu, Sript 4
+QuickLoad = false-- Quick Load not advised for mobile
+spoof = true 
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.6/MenuSettings.lua',true))() 
+
+
+
+--New
