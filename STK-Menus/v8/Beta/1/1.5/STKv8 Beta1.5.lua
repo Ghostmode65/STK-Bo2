@@ -348,7 +348,7 @@ end end)
 	player.Character.Parent = nil
 	player.Character.Parent = parent
 end
-Morph(483598592)
+
 
 
 
