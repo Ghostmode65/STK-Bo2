@@ -18,7 +18,7 @@
 QuickLoad = false-- Quick Load not advised for mobile
 spoof = true 
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.6/STKv8%20Beta1.6.lua',true))() 
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.6/STKv8%20Beta%201.6.lua',true))() 
 
 --Global Teleports, Sript 2
 QuickLoad = false-- Quick Load not advised for mobile
