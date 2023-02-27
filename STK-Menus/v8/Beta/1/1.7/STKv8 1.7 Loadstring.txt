@@ -30,7 +30,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/m
 QuickLoad = false-- Quick Load not advised for mobile
 spoof = true 
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.7/guns%20Beta.lua',true))() 
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v8/Beta/1/1.7/guns.lua',true))() 
 
 
 --Menu, Sript 4
